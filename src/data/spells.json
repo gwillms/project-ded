@@ -1148,7 +1148,6 @@
         "castingTime": "1 minuto",
         "range": "3 metros",
         "duration": "1 rodada",
-        "description": "Ao conjurar a magia, você desenha um círculo de 1,5 metro de raio no chão inscrito com símbolos que ligam sua localização a um círculo de teleporte permanente à sua escolha, cuja sequência de símbolos você conhece e que está no mesmo plano de existência que você. Um portal cintilante se abre dentro do círculo que você desenhou e permanece aberto até o final do seu próximo turno. Qualquer criatura que entre no portal aparece instantaneamente a 1,5 metro do círculo de destino ou no espaço desocupado mais próximo, se esse espaço estiver ocupado. Muitos dos principais templos, guildas e outros lugares importantes têm círculos de teleporte permanentes. Cada círculo inclui uma sequência de símbolos única. Ao adquirir a capacidade de conjurar essa magia pela primeira vez, você aprende as sequências de símbolos para dois destinos no Plano Material, escolhidos pelo Mestre. Durante suas aventuras, é possível aprender sequências adicionais. Você pode memorizar um novo símbolo após estudá-lo por 1 minuto. Você pode criar um círculo de teleporte permanente conjurando essa magia no mesmo local todos os dias por 365 dias.",
         "components": [
             "V",
             "M (tintas raras no valor de 50 ou mais PO, que a magia consome)"
@@ -1158,7 +1157,8 @@
             "Bruxo",
             "Feiticeiro",
             "Mago"
-        ]
+        ],
+        "description": "Você cria um círculo de 1,5 metro de raio que conecta sua posição a um círculo de teleporte permanente conhecido. Um portal se abre dentro do círculo, permitindo que criaturas que entrem nele apareçam no círculo de destino. Ao longo do tempo, você pode aprender novas sequências de símbolos e criar círculos permanentes repetindo a magia diariamente por 365 dias no mesmo local."
     },
     {
         "id": 60,
@@ -1168,7 +1168,6 @@
         "castingTime": "1 minuto",
         "range": "3 metros",
         "duration": "1 hora",
-        "description": "Você cria um Cilindro de energia mágica com 3 metros de raio e 6 metros de altura, centrado em um ponto visível e ao alcance no chão. Runas brilhantes surgem onde o Cilindro toca o chão ou outra superfície. Escolha um ou mais dos seguintes tipos de criaturas: Celestiais, Elementais, Feéricos, Ínferos ou Mortos-Vivos. O círculo afeta uma criatura do tipo escolhido das seguintes maneiras: A criatura não pode entrar voluntariamente no Cilindro por meios não mágicos. Se a criatura tentar usar teleporte ou viagem interplanar para fazer isso, ela deve primeiro ser bem-sucedida em uma salvaguarda de Carisma. A criatura tem Desvantagem nas jogadas de ataque contra alvos dentro do Cilindro. Alvos dentro do Cilindro não podem ser possuídos ou ter a condição Amedrontado ou Enfeitiçado pela criatura. Ao conjurar essa magia, você pode fazer com que ela funcione na direção inversa, impedindo que uma criatura do tipo especificado saia do Cilindro e protegendo alvos fora dele. Usando um Espaço de Magia de Círculo Superior: a duração aumenta em 1 hora para cada círculo de espaço de magia acima de 3.",
         "components": [
             "V",
             "S",
@@ -1179,7 +1178,8 @@
             "Clérigo",
             "Mago",
             "Paladino"
-        ]
+        ],
+        "description": "Você cria um cilindro de energia mágica de 3 metros de raio e 6 metros de altura que afeta tipos de criaturas escolhidas (Celestiais, Elementais, Feéricos, Ínferos ou Mortos-Vivos). Criaturas do tipo escolhido não podem entrar voluntariamente, têm Desvantagem em ataques contra alvos dentro do cilindro, e não podem possuir ou amedrontar/enfeitiçar os alvos. A magia pode ser invertida para impedir a saída dessas criaturas. Espaços de magia de nível superior aumentam a duração."
     },
     {
         "id": 61,
@@ -1389,7 +1389,7 @@
         "classes": [
             "Clérigo"
         ],
-        "description": "Você toca um ponto e infunde uma área ao seu redor com poder sagrado ou profano. A área pode ter um raio de até 18 metros, e a magia falha se o raio incluir uma área já sob o efeito de Consagrar. A área afetada tem os seguintes efeitos.\n\nVigília Consagrada. Escolha um tipo de criatura: Aberração, Celestial, Elemental, Feérico, Ínfero ou Morto-Vivo. Criaturas do tipo escolhido não podem entrar voluntariamente na área, e qualquer criatura que esteja possuída por elas, ou tem a condição Amedrontado ou Enfeitiçado por essas criaturas, não será considerada possuída, nem terá as condições Amedrontado ou Enfeitiçado enquanto estiver na área.\n\nEfeito Adicional. Você vincula um efeito adicional à área da lista abaixo:\n• Coragem: Criaturas de qualquer tipo que você escolher não recebem a condição Amedrontado enquanto estiverem na área.\n• Descanso Pacífico: Cadáveres enterrados na área não podem ser transformados em Mortos-vivos.\n• Escuridão: Escuridão preenche a área. A luz normal, bem como a luz mágica criada por magias de um círculo inferior a esta magia, não pode iluminar a área.\n• Idiomas: Criaturas de qualquer tipo que você escolher podem se comunicar com qualquer outra criatura na área, mesmo que não compartilhem um idioma em comum.\n• Interferência Extradimensional: Criaturas de qualquer tipo que você escolher não podem entrar ou sair da área usando teleporte ou viagem interplanar.\n• Luz do Dia: Luz Plena preenche a área. Escuridão mágica criada por magias de um círculo inferior a esta magia não pode extinguir a luz.\n• Medo: Criaturas de qualquer tipo que você escolher têm a condição Amedrontado enquanto estiverem na área.\n• Resistência: Criaturas de qualquer tipo que você escolher têm Resistência a um tipo de dano à sua escolha enquanto estiverem na área.\n• Silêncio: Nenhum som pode emanar de dentro da área e nenhum som pode adentrá-la.\n• Vulnerabilidade: Criaturas de qualquer tipo que você escolher têm Vulnerabilidade a um tipo de dano à sua escolha enquanto estiverem na área."
+        "description": "Você consagra uma área de até 18 metros de raio, protegendo-a com poder sagrado ou profano. Criaturas de um tipo escolhido não podem entrar voluntariamente e efeitos de possessão, Amedrontado ou Enfeitiçado são neutralizados. Você também escolhe um efeito adicional, como Coragem (proteção contra Amedrontado), Descanso Pacífico (impede criação de mortos-vivos), Escuridão, Idiomas, Interferência Extradimensional, Luz do Dia, Medo, Resistência, Silêncio ou Vulnerabilidade a um tipo de dano."
     },
     {
         "id": 72,
@@ -1480,7 +1480,7 @@
             "Druida",
             "Mago"
         ],
-        "description": "Até que a magia termine, você controla qualquer água dentro de uma área escolhida em um Cubo de até 30 metros de lado, usando um dos seguintes efeitos. Como uma ação Usar Magia em seus turnos posteriores, você pode repetir o mesmo efeito ou escolher um diferente.\n\nDividir Água. Você divide a água na área e cria uma trincheira. A trincheira se estende pela área da magia, e a água separada forma uma parede de cada lado. A trincheira permanece até que a magia termine ou você escolha um efeito diferente. A água então preenche lentamente a trincheira ao longo da próxima rodada até que o nível normal de água seja restaurado.\n\nInundação. Você faz com que o nível de toda a água parada na área suba em até 6 metros. Se você escolher uma área em um grande corpo d’água, você cria uma onda de 6 metros de altura que viaja de um lado da área para o outro e depois quebra. Quaisquer veículos Enormes ou menores no caminho da onda são carregados com ela para o outro lado. Qualquer veículo Enorme ou menor atingido pela onda tem 25% de chance de emborcar. O nível da água permanece elevado até que a magia termine ou você escolha um efeito diferente. Se esse efeito produziu uma onda, a onda se repete no início do seu próximo turno enquanto o efeito de inundação permanecer.\n\nRedemoinho. Você faz com que um redemoinho se forme no centro da área, que deve ser pelo menos uma área quadrada de 15 metros de lados e 7,5 metros de profundidade. O redemoinho dura até que você escolha um efeito diferente ou a magia termine. O redemoinho tem 1,5 metro de largura na base, até 15 metros de largura no topo e 7,5 metros de altura. Qualquer criatura na água e a até 7,5 metros do redemoinho é puxada a 3 metros em sua direção. Quando uma criatura entra no redemoinho pela primeira vez em um turno ou termina o turno lá, ela realiza uma salvaguarda de Força. Se falhar, a criatura sofre 2d8 pontos de dano Contundente. Em caso de sucesso, a criatura sofre metade do dano. Uma criatura só pode nadar para longe do redemoinho se primeiro usar uma ação para se afastar e for bem-sucedida em um teste de Força (Atletismo) contra a CD para evitar sua magia.\n\nRedirecionar Fluxo. Você faz com que a água corrente na área se mova na direção que você escolher, mesmo que a água tenha que fluir sobre obstáculos, paredes ou em outras direções improváveis. A água na área se move à medida que você a direciona, mas uma vez que ela se move além da área da magia, ela retoma seu fluxo com base no terreno. A água continua a se mover na direção que você escolheu até que a magia termine ou você escolha um efeito diferente."
+        "description": "Você controla a água em uma área de até 30m de lado, escolhendo um dos efeitos: Dividir Água (cria trincheira), Inundação (eleva água ou cria onda de 6m), Redemoinho (puxa criaturas e causa dano Contundente), Redirecionar Fluxo (move água corrente na direção escolhida). Você pode mudar o efeito em turnos posteriores usando uma ação Usar Magia."
     },
     {
         "id": 77,
@@ -1557,7 +1557,7 @@
         "classes": [
             "Mago"
         ],
-        "description": "Você adquire o serviço de um familiar, um espírito que assume uma forma animal que você escolhe: Aranha, Coruja, Corvo, Doninha, Falcão, Gato, Lagarto, Morcego, Polvo, Rato, Sapo ou outra Fera que tenha um Nível de Desafio 0. Aparecendo em um espaço desocupado no alcance da magia, o familiar tem as estatísticas da forma escolhida (veja o apêndice B), embora seja um Celestial, Feérico ou Ínfero (à sua escolha) em vez de uma Fera. Seu familiar age independentemente de você, mas obedece aos seus comandos.\n\nConexão Telepática. Enquanto seu familiar estiver a até 30 metros de você, você pode se comunicar telepaticamente com ele. Além disso, como uma Ação Bônus, você pode ver através dos olhos do familiar e ouvir o que ele ouve até o início do seu próximo turno, obtendo os benefícios de quaisquer sentidos especiais que ele tenha.\nPor fim, ao conjurar uma magia com um alcance de toque, seu familiar pode entregar o toque. Seu familiar deve estar a até 30 metros de você, e ele deve executar uma Reação para entregar o toque quando você conjurar a magia.\n\nCombate. O familiar é um aliado seu e de seus aliados. Ele joga a Iniciativa dele e age no turno dele. Um familiar não pode atacar, mas pode realizar outras ações normalmente.\n\nDesaparecimento do Familiar. Quando o familiar é reduzido a 0 Pontos de Vida, ele desaparece. Ele reaparece depois que você conjura esta magia novamente. Como uma ação Usar Magia, você pode descartar temporariamente o familiar para uma mini dimensão. Como alternativa, você pode descartá-lo para sempre. Como uma ação Usar Magia enquanto está temporariamente descartado, você pode fazer com que ele reapareça em um espaço desocupado a até 9 metros de você. Sempre que o familiar é reduzido a 0 Pontos de Vida ou desaparece na mini dimensão, ele deixa para trás no espaço que ocupava qualquer coisa que estivesse vestindo ou carregando.\n\nApenas um Familiar. Você não pode ter mais de um familiar ao mesmo tempo. Ao conjurar esta magia enquanto você tem um familiar, você faz com que ele adote uma nova forma elegível."
+        "description": "Você invoca um familiar em forma de Fera de Nível de Desafio 0 (como Aranha, Coruja, Corvo, Gato, etc.). O familiar age independentemente, obedece seus comandos, pode comunicar-se telepaticamente a até 30m, entregar magias de toque e usar sentidos especiais. Não pode atacar, desaparece ao chegar a 0 PV, reaparecendo quando você conjura a magia novamente. Apenas um familiar por vez, podendo mudar sua forma com nova conjuração."
     },
     {
         "id": 81,

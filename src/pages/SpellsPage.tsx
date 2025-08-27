@@ -297,20 +297,20 @@ const SpellsPage: React.FC = () => {
 
                 {/* Material */}
                 {spell.materialComponent && (
-                  <div className="mb-1">
-                    <p className="text-xs text-gray-700">
+                  <div className="mb-2">
+                    <p className="text-xs text-gray-700 pt-2">
                       <span className="font-semibold">Material:</span> {spell.materialComponent}
                     </p>
                   </div>
                 )}
 
                 {/* Descrição */}
-                <p className="text-xs text-gray-600 leading-tight mb-1">
+                <p className="text-xs text-gray-600 leading-tight pt-2">
                   {spell.description}
                 </p>
 
                 {/* Classes */}
-                <div className="text-xs text-gray-500 border-t pt-1">
+                <div className="text-xs text-gray-500 pt-2">
                   <strong>Classes:</strong> {spell.classes.join(', ')}
                 </div>
               </div>
