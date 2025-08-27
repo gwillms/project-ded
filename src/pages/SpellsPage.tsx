@@ -23,8 +23,8 @@ const SpellsPage: React.FC = () => {
     setKnownSpells(newKnownSpells);
   };
 
-  const getIconFromComponents = (components: string[]): JSX.Element => {
-    const icons: JSX.Element[] = [];
+  const getIconFromComponents = (components: string[]): React.ReactNode => {
+    const icons: React.ReactNode[] = [];
     if (components.includes('V')) icons.push(<User key="V" className="w-4 h-4 inline-block mr-1" />);
     if (components.includes('S')) icons.push(<Hand key="S" className="w-4 h-4 inline-block mr-1" />);
     if (components.includes('M')) icons.push(<Zap key="M" className="w-4 h-4 inline-block mr-1" />);
