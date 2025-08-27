@@ -4643,7 +4643,7 @@
         "description": "Cria uma muralha de espinhos em uma superfície sólida, à vista e no alcance. Pode ser linear (18m x 3m x 1,5m) ou circular (6m diâmetro x 6m altura x 1,5m espessura). Bloqueia linha de visão. Criaturas na área fazem salvaguarda de Destreza, sofrendo 7d8 de dano Perfurante ou metade em caso de sucesso. Movimentação na muralha custa 6 metros para cada 1,5m atravessados, sofrendo dano ao entrar ou terminar o turno lá. Espaços de magia de nível superior aumentam o dano em 1d8 por círculo acima de 6."
     },
     {
-        "id": 247,
+        "id": 246,
         "name": "Muralha de Fogo",
         "level": 4,
         "school": "Evocação",
@@ -4663,7 +4663,7 @@
         "description": "Cria uma muralha de fogo em uma superfície sólida. Pode ser linear (18m x 6m x 0,3m) ou circular (6m diâmetro x 6m altura x 0,3m espessura). Um lado escolhido causa 5d8 de dano Ígneo a cada criatura que termina o turno nele até 3m ou entra na muralha. O dano aumenta 1d8 por nível de espaço de magia acima de 4."
     },
     {
-        "id": 248,
+        "id": 247,
         "name": "Muralha de Gelo",
         "level": 6,
         "school": "Evocação",
@@ -4681,7 +4681,7 @@
         "description": "Cria uma muralha de gelo em superfície sólida. Pode ser cúpula hemisférica, globo (raio 3m) ou superfície plana com 10 painéis de 3m. Espessura 0,3m. Criaturas empurradas e salvaguarda de Destreza; falha sofre 10d6 Gélido, metade em sucesso. Muralha: CA 12, 30 PV por painel, Imunidade a Gélido, Psíquico, Venenoso, Vulnerável a Ígneo. Reduzir um painel a 0 PV destrói o painel e cria camada de ar gélido. Atravessar a camada exige salvaguarda de Constituição, 5d6 Gélido. Dano aumenta por nível de magia acima de 6."
     },
     {
-        "id": 249,
+        "id": 248,
         "name": "Muralha de Pedra",
         "level": 5,
         "school": "Evocação",
@@ -4701,7 +4701,7 @@
         "description": "Cria uma muralha de pedra maciça, 15 cm de espessura, composta de 10 painéis de 3m. Pode ter qualquer forma, desde que solidamente suportada. Criaturas empurradas se salvaguardarem. Painéis: CA 15, 30 PV por 2,5 cm de espessura, Imunidade a Gélido, Psíquico e Venenoso. Painel a 0 PV é destruído. Concentração total torna a muralha permanente."
     },
     {
-        "id": 250,
+        "id": 249,
         "name": "Muralha de Vento",
         "level": 3,
         "school": "Evocação",
@@ -4720,7 +4720,7 @@
         "description": "Uma muralha de vento forte surge, até 15m comprimento, 4,5m altura e 0,3m espessura. O vento mantém gases e névoa afastados. Criaturas ou objetos Pequenos não podem atravessar; projéteis comuns são desviados. Ao surgir, criaturas na área fazem salvaguarda de Força (falha: 4d8 Contundente, sucesso metade)."
     },
     {
-        "id": 251,
+        "id": 250,
         "name": "Muralha Prismática",
         "level": 9,
         "school": "Abjuração",
@@ -4738,7 +4738,7 @@
         "description": "Uma parede vertical opaca (27m comprimento x 9m altura x 2,5cm) ou globo (9m diâmetro). Luz Plena 30m, Meia-luz mais 30m. Criaturas escolhidas podem passar sem dano. Outras que se aproximarem devem realizar salvaguarda de Constituição ou ficam Cegas por 1 minuto. Possui 7 camadas coloridas, cada uma com efeitos diferentes (Vermelho: 12d6 Ígneo; Laranja: 12d6 Ácido; Amarelo: 12d6 Elétrico; Verde: 12d6 Venenoso; Azul: 12d6 Gélido; Anil: Contido com salvaguarda; Violeta: Cego e possível teleporte para outro plano). Cada camada pode ser destruída de acordo com suas vulnerabilidades."
     },
     {
-        "id": 252,
+        "id": 251,
         "name": "Nevasca",
         "level": 3,
         "school": "Invocação",
@@ -4758,7 +4758,7 @@
         "description": "Granizo cai em um cilindro de 12m de altura e 6m de raio. Área Totalmente Obscurecida e chamas expostas são apagadas. Solo se torna Terreno Difícil. Criaturas que entram ou começam o turno no cilindro devem fazer salvaguarda de Destreza ou ficam Caídas e perdem Concentração."
     },
     {
-        "id": 253,
+        "id": 252,
         "name": "Névoa Mortal",
         "level": 5,
         "school": "Invocação",
@@ -4776,7 +4776,7 @@
         "description": "Cria uma esfera de 6m de raio de névoa amarelo-esverdeada. Área Totalmente Obscurecida. Criaturas na esfera fazem salvaguarda de Constituição (falha: 5d8 Venenoso, sucesso metade). A esfera se afasta 3m de você no início de cada turno. Dano aumenta 1d8 para cada círculo acima de 5."
     },
     {
-        "id": 254,
+        "id": 253,
         "name": "Névoa Obscurecente",
         "level": 1,
         "school": "Invocação",
@@ -4796,7 +4796,7 @@
         "description": "Cria uma esfera de névoa de 6m de raio Totalmente Obscurecida. Permanece até a dispersão por vento forte ou fim da magia. Usando espaço de círculo superior, o raio aumenta em 6m por círculo acima de 1."
     },
     {
-        "id": 255,
+        "id": 254,
         "name": "Nuvem de Adagas",
         "level": 2,
         "school": "Invocação",
@@ -4817,7 +4817,7 @@
         "description": "Cria um cubo de 1,5m de lado com adagas rodopiantes. Criaturas na área sofrem 4d4 Cortante ao entrar, terminar turno ou se o cubo se mover para o espaço delas. Nos turnos subsequentes, você pode teleportar o cubo até 9m. Dano aumenta 2d4 por círculo acima de 2."
     },
     {
-        "id": 256,
+        "id": 255,
         "name": "Nuvem Fétida",
         "level": 3,
         "school": "Invocação",
@@ -4837,7 +4837,7 @@
         "description": "Cria uma esfera de 6m de raio de gás amarelo nauseante, Totalmente Obscurecida. Criaturas que começam o turno na esfera devem fazer salvaguarda de Constituição ou ficam Envenenadas até o fim do turno, não podendo executar ações."
     },
     {
-        "id": 257,
+        "id": 256,
         "name": "Nuvem Incendiária",
         "level": 8,
         "school": "Invocação",
@@ -4856,7 +4856,7 @@
         "description": "Uma esfera de 6m de raio de brasas e fumaça, Totalmente Obscurecida. Criaturas dentro realizam salvaguarda de Destreza (falha: 10d8 Ígneo, sucesso metade). A nuvem se afasta 3m por turno na direção escolhida. Salvaguardas também ao mover-se para a nuvem ou terminar o turno nela."
     },
     {
-        "id": 258,
+        "id": 257,
         "name": "Olho Arcano",
         "level": 4,
         "school": "Adivinhação",
@@ -4874,7 +4874,7 @@
         "description": "Cria um olho invisível e invulnerável no alcance da magia. Você recebe informações visuais em todas as direções, com Visão no Escuro de 9m. Como Ação Bônus, pode mover o olho até 9m; barreiras sólidas bloqueiam, mas pode passar por aberturas de até 2,5cm."
     },
     {
-        "id": 259,
+        "id": 258,
         "name": "Onda Destrutiva",
         "level": 5,
         "school": "Evocação",
@@ -4890,7 +4890,7 @@
         "description": "Uma emanação de 9m irradia de você. Cada criatura à escolha realiza salvaguarda de Constituição (falha: 5d6 Trovejante + 5d6 Necrótico ou Radiante, e fica Caído; sucesso metade)."
     },
     {
-        "id": 260,
+        "id": 259,
         "name": "Onda Trovejante",
         "level": 1,
         "school": "Evocação",
@@ -4910,7 +4910,7 @@
         "description": "Libera uma onda estrondosa em um Cubo de 4,5m. Criaturas no cubo fazem salvaguarda de Constituição (falha: 2d8 Trovejante + empurradas 3m, sucesso metade). Objetos soltos são empurrados 3m. Estrondo audível até 90m. Dano aumenta 1d8 por círculo acima de 1."
     },
     {
-        "id": 261,
+        "id": 260,
         "name": "Oração de Cura",
         "level": 2,
         "school": "Abjuração",
@@ -4927,7 +4927,7 @@
         "description": "Até cinco criaturas que permanecerem no alcance durante a conjuração recuperam 2d8 PV e obtêm benefícios de Descanso Curto. Uma criatura não pode ser afetada novamente até completar um Descanso Longo. Usando espaço de círculo superior, cura aumenta 1d8 por círculo acima de 2."
     },
     {
-        "id": 262,
+        "id": 261,
         "name": "Orbe Cromático",
         "level": 1,
         "school": "Evocação",
@@ -4946,7 +4946,7 @@
         "description": "Arremessa um orbe de energia em um alvo. Escolha Ácido, Elétrico, Gélido, Ígneo, Trovejante ou Venenoso. Ataque à distância: acerto causa 3d8 de dano. Se dois ou mais dados iguais, o orbe salta para outro alvo até 9m. Usando espaço superior, dano aumenta 1d8 por círculo acima de 1; orbe pode saltar número máximo igual ao círculo de espaço de magia."
     },
     {
-        "id": 263,
+        "id": 262,
         "name": "Orientação",
         "level": "Truque",
         "school": "Adivinhação",
@@ -4964,7 +4964,7 @@
         "description": "Toca uma criatura voluntária e escolhe uma perícia. Até o fim da magia, a criatura adiciona 1d4 a testes de atributo usando a perícia escolhida."
     },
     {
-        "id": 264,
+        "id": 263,
         "name": "Padrão Hipnótico",
         "level": 3,
         "school": "Ilusão",
@@ -4984,7 +4984,7 @@
         "description": "Cria um padrão de cores em um cubo de 9m. Criaturas que veem fazem salvaguarda de Sabedoria ou ficam Enfeitiçadas (Incapacitado, Deslocamento 0). A magia termina se sofrer dano ou alguém sacudir a criatura."
     },
     {
-        "id": 265,
+        "id": 264,
         "name": "Palavra Curativa",
         "level": 1,
         "school": "Abjuração",
@@ -5002,7 +5002,7 @@
         "description": "Uma criatura à sua escolha recupera 2d4 PV + modificador de conjuração. Espaço superior aumenta cura em 2d4 por círculo acima de 1."
     },
     {
-        "id": 266,
+        "id": 265,
         "name": "Palavra Curativa em Massa",
         "level": 3,
         "school": "Abjuração",
@@ -5019,7 +5019,7 @@
         "description": "Até seis criaturas à sua escolha recuperam 2d4 PV + modificador de conjuração. Espaço superior aumenta cura 1d4 por círculo acima de 3."
     },
     {
-        "id": 267,
+        "id": 266,
         "name": "Palavra de Poder: Atordoar",
         "level": 8,
         "school": "Encantamento",
@@ -5038,7 +5038,7 @@
         "description": "Domina a mente de uma criatura. Se tiver ≤150 PV, fica Atordoada. Caso contrário, Deslocamento 0. Salvaguarda de Constituição no final de cada turno para encerrar Atordoado."
     },
     {
-        "id": 268,
+        "id": 267,
         "name": "Palavra de Poder: Fortificar",
         "level": 7,
         "school": "Encantamento",
@@ -5055,7 +5055,7 @@
         "description": "Fortalece até seis criaturas. Concede 120 PV Temporários, que podem ser divididos entre os alvos."
     },
     {
-        "id": 269,
+        "id": 268,
         "name": "Palavra de Poder: Matar",
         "level": 9,
         "school": "Encantamento",
@@ -5074,7 +5074,7 @@
         "description": "Força uma criatura a morrer. Se tiver ≤100 PV, morre. Caso contrário, sofre 12d12 de dano Psíquico."
     },
     {
-        "id": 270,
+        "id": 269,
         "name": "Palavra de Poder: Salvar",
         "level": 9,
         "school": "Encantamento",
@@ -5091,7 +5091,7 @@
         "description": "O alvo recupera todos os PV e remove condições Amedrontado, Atordoado, Enfeitiçado, Envenenado ou Paralisado. Se Caído, pode usar Reação para se levantar."
     },
     {
-        "id": 271,
+        "id": 270,
         "name": "Palavra de Radiância",
         "level": "Truque",
         "school": "Evocação",
@@ -5108,7 +5108,7 @@
         "description": "Radiância irrompe em Emanação de 1,5m. Criaturas à escolha fazem salvaguarda de Constituição ou sofrem 1d6 Radiante. Dano aumenta para 2d6, 3d6, 4d6 nos níveis 5, 11 e 17."
     },
     {
-        "id": 272,
+        "id": 271,
         "name": "Palavra de Regresso",
         "level": 6,
         "school": "Invocação",
@@ -5124,7 +5124,7 @@
         "description": "Você e até cinco criaturas voluntárias a até 1,5m se teleportam instantaneamente para um santuário previamente preparado. Aparecem no espaço desocupado mais próximo. Sem santuário preparado, a magia não tem efeito."
     },
     {
-        "id": 273,
+        "id": 272,
         "name": "Palavra Sagrada",
         "level": 7,
         "school": "Evocação",
@@ -5141,7 +5141,7 @@
         ]
     },
     {
-        "id": 274,
+        "id": 273,
         "name": "Paralisar Monstro",
         "level": 5,
         "school": "Encantamento",
@@ -5163,7 +5163,7 @@
         ]
     },
     {
-        "id": 275,
+        "id": 274,
         "name": "Paralisar Pessoa",
         "level": 2,
         "school": "Encantamento",
@@ -5187,7 +5187,7 @@
         ]
     },
     {
-        "id": 276,
+        "id": 275,
         "name": "Parar o Tempo",
         "level": 9,
         "school": "Transmutação",
@@ -5205,7 +5205,7 @@
         ]
     },
     {
-        "id": 277,
+        "id": 276,
         "name": "Passo Arbóreo",
         "level": 5,
         "school": "Invocação",
@@ -5224,7 +5224,7 @@
         ]
     },
     {
-        "id": 278,
+        "id": 277,
         "name": "Passo Nebuloso",
         "level": 2,
         "school": "Invocação",
@@ -5243,7 +5243,7 @@
         ]
     },
     {
-        "id": 279,
+        "id": 278,
         "name": "Passo Sem Rastro",
         "level": 2,
         "school": "Abjuração",
@@ -5263,7 +5263,7 @@
         ]
     },
     {
-        "id": 280,
+        "id": 279,
         "name": "Passos Largos",
         "level": 1,
         "school": "Transmutação",
@@ -5285,7 +5285,7 @@
         ]
     },
     {
-        "id": 281,
+        "id": 280,
         "name": "Pele-Casca",
         "level": 2,
         "school": "Transmutação",
@@ -5305,7 +5305,7 @@
         ]
     },
     {
-        "id": 282,
+        "id": 281,
         "name": "Pele-Rocha",
         "level": 4,
         "school": "Transmutação",
@@ -5327,7 +5327,7 @@
         ]
     },
     {
-        "id": 283,
+        "id": 282,
         "name": "Pequeno Refúgio de Leomund",
         "level": 3,
         "school": "Evocação",
@@ -5347,7 +5347,7 @@
         ]
     },
     {
-        "id": 284,
+        "id": 283,
         "name": "Perdição",
         "level": 1,
         "school": "Encantamento",
@@ -5368,7 +5368,7 @@
         ]
     },
     {
-        "id": 285,
+        "id": 284,
         "name": "Piscar",
         "level": 3,
         "school": "Transmutação",
@@ -5387,7 +5387,7 @@
         ]
     },
     {
-        "id": 286,
+        "id": 285,
         "name": "Polimorfia",
         "level": 4,
         "school": "Transmutação",
@@ -5409,7 +5409,7 @@
         ]
     },
     {
-        "id": 287,
+        "id": 286,
         "name": "Polimorfia Total",
         "level": 9,
         "school": "Transmutação",
@@ -5430,7 +5430,7 @@
         ]
     },
     {
-        "id": 288,
+        "id": 287,
         "name": "Porta Dimensional",
         "level": 4,
         "school": "Invocação",
@@ -5450,7 +5450,7 @@
         ]
     },
     {
-        "id": 289,
+        "id": 288,
         "name": "Portais Arcanos",
         "level": 6,
         "school": "Invocação",
@@ -5470,7 +5470,7 @@
         ]
     },
     {
-        "id": 290,
+        "id": 289,
         "name": "Portal",
         "level": 9,
         "school": "Invocação",
@@ -5492,7 +5492,7 @@
         ]
     },
     {
-        "id": 291,
+        "id": 290,
         "name": "Praga de Insetos",
         "level": 5,
         "school": "Invocação",
@@ -5513,7 +5513,7 @@
         ]
     },
     {
-        "id": 292,
+        "id": 291,
         "name": "Presença Régia de Yolande",
         "level": 5,
         "school": "Encantamento",
@@ -5533,7 +5533,7 @@
         ]
     },
     {
-        "id": 293,
+        "id": 292,
         "name": "Presságio",
         "level": 4,
         "school": "Adivinhação",
@@ -5554,7 +5554,7 @@
         ]
     },
     {
-        "id": 294,
+        "id": 293,
         "name": "Prestidigitação Arcana",
         "level": 0,
         "school": "Transmutação",
@@ -5575,7 +5575,7 @@
         ]
     },
     {
-        "id": 295,
+        "id": 294,
         "name": "Proibição",
         "level": 6,
         "school": "Abjuração",
@@ -5594,7 +5594,7 @@
         ]
     },
     {
-        "id": 296,
+        "id": 295,
         "name": "Projeção Astral",
         "level": 9,
         "school": "Necromancia",
@@ -5615,7 +5615,7 @@
         ]
     },
     {
-        "id": 297,
+        "id": 296,
         "name": "Projetar Imagem",
         "level": 7,
         "school": "Ilusão",
@@ -5635,7 +5635,7 @@
         ]
     },
     {
-        "id": 298,
+        "id": 297,
         "name": "Proteção Contra a Morte",
         "level": 4,
         "school": "Abjuração",
@@ -5654,7 +5654,7 @@
         ]
     },
     {
-        "id": 299,
+        "id": 298,
         "name": "Proteção Contra Energia",
         "level": 3,
         "school": "Abjuração",
@@ -5676,7 +5676,7 @@
         ]
     },
     {
-        "id": 300,
+        "id": 299,
         "name": "Proteção Contra Lâminas",
         "level": 0,
         "school": "Abjuração",
@@ -5697,7 +5697,7 @@
         ]
     },
     {
-        "id": 301,
+        "id": 300,
         "name": "Proteção Contra o Bem e o Mal",
         "level": 1,
         "school": "Abjuração",
@@ -5720,7 +5720,7 @@
         ]
     },
     {
-        "id": 302,
+        "id": 301,
         "name": "Proteção Contra Veneno",
         "level": 2,
         "school": "Abjuração",
@@ -5741,7 +5741,7 @@
         ]
     },
     {
-        "id": 303,
+        "id": 302,
         "name": "Proteger Fortaleza",
         "level": 6,
         "school": "Abjuração",
@@ -5761,7 +5761,7 @@
         ]
     },
     {
-        "id": 304,
+        "id": 303,
         "name": "Purificar Alimentos e Bebidas",
         "level": 1,
         "school": "Transmutação",
@@ -5778,6 +5778,564 @@
             "Clérigo",
             "Druida",
             "Paladino"
+        ]
+    },
+    {
+        "id": 304,
+        "name": "Queda Suave",
+        "level": 1,
+        "school": "Transmutação",
+        "castingTime": "Reação",
+        "range": "18 metros",
+        "duration": "1 minuto",
+        "description": "Escolha até cinco criaturas em queda no alcance da magia. A taxa de queda de cada uma diminui para 18 metros por rodada até que a magia termine. Se uma criatura pousar antes do fim da magia, não sofre dano da queda e a magia se encerra para ela.",
+        "components": [
+            "V",
+            "M"
+        ],
+        "materialComponent": "uma pequena pena ou pedaço de penugem",
+        "classes": [
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 305,
+        "name": "Raio Ardente",
+        "level": 2,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "36 metros",
+        "duration": "Instantânea",
+        "description": "Você dispara três raios flamejantes. Você pode dispará-los em um ou vários alvos no alcance da magia. Realize um ataque mágico à distância para cada raio. Em caso de acerto, o alvo sofre 2d6 pontos de dano Ígneo. Usando um Espaço de Magia de Círculo Superior, você cria um raio adicional para cada círculo de espaço de magia acima de 2.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 306,
+        "name": "Raio de Bruxa",
+        "level": 1,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Um feixe de energia crepitante é lançado em direção a uma criatura no alcance da magia, formando um arco sustentado de relâmpago entre você e o alvo. Realize um ataque mágico à distância contra ele. Em caso de acerto, o alvo sofre 2d12 pontos de dano Elétrico. Em cada um dos seus turnos posteriores, você pode executar uma ação bônus para causar 1d12 pontos de dano Elétrico automaticamente ao alvo. A magia encerra se o alvo estiver fora do alcance ou tiver Cobertura Total em relação a você. Usando um Espaço de Magia de Círculo Superior, o dano inicial aumenta em 1d12 para cada círculo de espaço de magia acima de 1.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um galho atingido por um raio",
+        "classes": [
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 307,
+        "name": "Raio de Fogo",
+        "level": 0,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "36 metros",
+        "duration": "Instantânea",
+        "description": "Você arremessa uma partícula de fogo em uma criatura ou objeto no alcance da magia. Ataque mágico à distância: acerto causa 1d10 pontos de dano Ígneo. Objeto inflamável entra em combustão. Dano aumenta em 1d10 nos níveis 5 (2d10), 11 (3d10) e 17 (4d10).",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 308,
+        "name": "Raio de Gelo",
+        "level": 0,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Instantânea",
+        "description": "Um feixe congelante atinge uma criatura no alcance da magia. Acerto causa 1d8 de dano Gélido e reduz Deslocamento em 3 metros até o início do próximo turno. Dano aumenta em 1d8 nos níveis 5 (2d8), 11 (3d8) e 17 (4d8).",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 309,
+        "name": "Raio do Enfraquecimento",
+        "level": 2,
+        "school": "Necromancia",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Um feixe de energia enfraquecedora atinge uma criatura. Ela faz salvaguarda de Constituição: sucesso = Desvantagem na próxima jogada de ataque até o início do próximo turno; falha = Desvantagem em Testes de Força e subtrai 1d8 de dano. A salvaguarda se repete no final de cada turno.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 310,
+        "name": "Raio Guia",
+        "level": 1,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "36 metros",
+        "duration": "1 rodada",
+        "description": "Lança um raio de luz em uma criatura. Acerto causa 4d6 pontos de dano Radiante. Próxima jogada de ataque contra ela antes do final do turno tem Vantagem. Dano aumenta em 1d6 para cada círculo de espaço de magia acima de 1.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo"
+        ]
+    },
+    {
+        "id": 311,
+        "name": "Raio Lunar",
+        "level": 2,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "36 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Um feixe prateado cria um Cilindro de 1,5m de raio e 12m de altura. Criaturas dentro fazem salvaguarda de Constituição: falha = 2d10 dano Radiante + revertida se multimorfada. O Cilindro pode ser movido até 18 metros com ação Usar Magia. Dano aumenta 1d10 para cada círculo acima de 2.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma folha de dama-da-noite",
+        "classes": [
+            "Druida"
+        ]
+    },
+    {
+        "id": 312,
+        "name": "Raio Místico",
+        "level": 0,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "36 metros",
+        "duration": "Instantânea",
+        "description": "Emite um feixe de energia. Acerto causa 1d10 de dano Energético. Aprimoramento de Truque: cria 2 feixes no nível 5, 3 no nível 11 e 4 no nível 17. Cada feixe é atacado separadamente, podendo ser no mesmo alvo ou diferentes.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo"
+        ]
+    },
+    {
+        "id": 313,
+        "name": "Raio Nauseante",
+        "level": 1,
+        "school": "Necromancia",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Instantânea",
+        "description": "Um raio esverdeado atinge uma criatura. Acerto causa 2d8 de dano Venenoso e aplica condição Envenenado até o final do próximo turno. Dano aumenta 1d8 para cada círculo de espaço de magia acima de 1.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 314,
+        "name": "Raio Solar",
+        "level": 6,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria uma linha de luz de 1,5 metro de largura e 18 metros de comprimento. Criaturas na linha fazem salvaguarda de Constituição: falha = 6d8 de dano Radiante + condição Cego até o início do próximo turno; sucesso = metade do dano. Pode criar nova linha usando ação Usar Magia. Emite Luz Plena 9m e Meia-luz +9m.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma lupa",
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 315,
+        "name": "Rajada de Veneno",
+        "level": 0,
+        "school": "Necromancia",
+        "castingTime": "Ação",
+        "range": "9 metros",
+        "duration": "Instantânea",
+        "description": "Projeta uma névoa tóxica em uma criatura. Acerto causa 1d12 de dano Venenoso. Dano aumenta 1d12 nos níveis 5 (2d12), 11 (3d12) e 17 (4d12).",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 316,
+        "name": "Rajada Prismática",
+        "level": 7,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Instantânea",
+        "description": "Oito raios coloridos em um cone de 18 metros. Cada criatura faz salvaguarda de Destreza; 1d8 determina o raio que a afeta. Cada raio causa efeitos distintos: Vermelho (12d6 Ígneo), Laranja (12d6 Ácido), Amarelo (12d6 Elétrico), Verde (12d6 Venenoso), Azul (12d6 Gélido), Anil (Contido/Petrificado), Violeta (Cego ou teleporte para outro plano), Especial (atinge com dois raios). Sucesso na salvaguarda reduz ou cancela efeitos conforme cada raio.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 317,
+        "name": "Receptáculo Arcano",
+        "level": 6,
+        "school": "Necromancia",
+        "castingTime": "1 minuto",
+        "range": "Pessoal",
+        "duration": "Até ser dissipada",
+        "description": "Seu corpo entra em estado catatônico enquanto sua alma entra em um receptáculo. Pode projetar sua alma até 30 metros, possuindo um Humanoide (salvaguarda de Carisma). Mantém estatísticas originais enquanto controla o corpo possuído. Caso o receptáculo seja destruído ou a magia termine, sua alma retorna ao corpo. Se o corpo estiver morto ou fora de alcance, você morre.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma gema, cristal ou relicário no valor de 500 PO ou mais",
+        "classes": [
+            "Mago"
+        ]
+    },
+    {
+        "id": 318,
+        "name": "Reencarnar",
+        "level": 5,
+        "school": "Necromancia",
+        "castingTime": "1 hora",
+        "range": "Toque",
+        "duration": "Instantânea",
+        "description": "Toca um Humanoide morto (até 10 dias). Cria um novo corpo para a alma habitar. Role 1d10 ou escolha nova espécie. Mantém memórias e capacidades, mas troca traços da espécie anterior.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "óleos raros no valor de 1.000 PO",
+        "classes": [
+            "Druida"
+        ]
+    },
+    {
+        "id": 319,
+        "name": "Reflexos",
+        "level": 2,
+        "school": "Ilusão",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "1 minuto",
+        "description": "Três cópias ilusórias movem-se com você. Ataques contra você podem atingir cópias (d6 ≥ 3). Cópias ignoram outros efeitos. Magia encerra quando todas as cópias forem destruídas. Não afeta criaturas cegas ou com Visão Verdadeira.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 320,
+        "name": "Refugiar",
+        "level": 7,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "Até ser dissipada",
+        "description": "Oculta objeto ou criatura voluntária. Alvo fica Invisível, não detectável por magia de Adivinhação. Se criatura, entra em animação suspensa, Inconsciente, não envelhece e não necessita de sustento. Pode definir condição para término.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "poeira de pedra preciosa no valor de 5.000 PO",
+        "classes": [
+            "Mago"
+        ]
+    },
+    {
+        "id": 321,
+        "name": "Regeneração",
+        "level": 7,
+        "school": "Transmutação",
+        "castingTime": "1 minuto",
+        "range": "Toque",
+        "duration": "1 hora",
+        "description": "Recupera 4d8 + 15 PV imediatamente. Durante a duração, recupera 1 PV por turno. Partes do corpo cortadas regeneram em 2 minutos.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma conta de oração",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida"
+        ]
+    },
+    {
+        "id": 322,
+        "name": "Relâmpago",
+        "level": 3,
+        "school": "Evocação",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Instantânea",
+        "description": "Dispara uma linha de 30 metros x 1,5 metro. Criaturas fazem salvaguarda de Destreza: falha = 8d6 dano Elétrico; sucesso = metade. Dano aumenta 1d6 por círculo acima do 3º.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "pelo e cajado de cristal",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 323,
+        "name": "Remeter",
+        "level": 3,
+        "school": "Adivinhação",
+        "castingTime": "Ação",
+        "range": "Ilimitado",
+        "duration": "Instantânea",
+        "description": "Envia uma mensagem curta (até 25 palavras) para uma criatura conhecida. Alvo reconhece você e pode responder. Funciona em outros planos, 5% de chance de falha. Bloqueio dura 8 horas se alvo impedir contato.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "fio de cobre",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 324,
+        "name": "Remover Maldição",
+        "level": 3,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "Instantânea",
+        "description": "Encerra todas as maldições que afetam uma criatura ou objeto. Se objeto mágico, maldição permanece, mas quebra a sintonização, permitindo remoção ou descarte.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo",
+            "Clérigo",
+            "Mago",
+            "Paladino"
+        ]
+    },
+    {
+        "id": 325,
+        "name": "Reparar",
+        "level": 0,
+        "school": "Transmutação",
+        "castingTime": "1 minuto",
+        "range": "Toque",
+        "duration": "Instantânea",
+        "description": "Repara uma única ruptura ou rasgo em um objeto tocado (até 30 cm). Pode reparar fisicamente itens mágicos, mas não restaura magia.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "duas pedras-ímã",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 326,
+        "name": "Repouso Tranquilo",
+        "level": 2,
+        "school": "Necromancia",
+        "castingTime": "Ação ou Ritual",
+        "range": "Toque",
+        "duration": "10 dias",
+        "description": "Protege cadáver ou restos mortais da decomposição e impede que se tornem Morto-Vivo. Dias sob efeito não contam para magias como Reviver os Mortos.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "2 peças de cobre consumidas",
+        "classes": [
+            "Clérigo",
+            "Mago",
+            "Paladino"
+        ]
+    },
+    {
+        "id": 327,
+        "name": "Repreensão Diabólica",
+        "level": 1,
+        "school": "Evocação",
+        "castingTime": "Reação",
+        "range": "18 metros",
+        "duration": "Instantânea",
+        "description": "Cria chamas verdes em criatura que causou dano. Salvaguarda de Destreza: falha = 2d10 Ígneo; sucesso = metade. Dano aumenta 1d10 por círculo acima do 1º.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo"
+        ]
+    },
+    {
+        "id": 328,
+        "name": "Resistência",
+        "level": 0,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Toca uma criatura e escolhe um tipo de dano. Dano sofrido desse tipo reduzido em 1d4. Pode ser usado uma vez por turno.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo",
+            "Druida"
+        ]
+    },
+    {
+        "id": 329,
+        "name": "Respirar na Água",
+        "level": 3,
+        "school": "Transmutação",
+        "castingTime": "Ação ou Ritual",
+        "range": "9 metros",
+        "duration": "24 horas",
+        "description": "Concede a até dez criaturas voluntárias a capacidade de respirar debaixo d’água. Mantêm respiração normal também.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "pedaço de junco",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Guardião",
+            "Mago"
+        ]
+    },
+    {
+        "id": 330,
+        "name": "Ressurreição",
+        "level": 7,
+        "school": "Necromancia",
+        "castingTime": "1 hora",
+        "range": "Toque",
+        "duration": "Instantânea",
+        "description": "Revive criatura morta há no máximo 100 anos, que não faleceu de velhice nem era Morto-Vivo. Restaura PV, remove venenos, cura feridas letais e partes do corpo ausentes. Penalidade -4 em testes D20 reduzindo 1 por descanso longo.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "diamante no valor de 1.000 PO consumido",
+        "classes": [
+            "Bardo",
+            "Clérigo"
+        ]
+    },
+    {
+        "id": 331,
+        "name": "Ressurreição Verdadeira",
+        "level": 9,
+        "school": "Necromancia",
+        "castingTime": "1 hora",
+        "range": "Toque",
+        "duration": "Instantânea",
+        "description": "Revive criatura morta há no máximo 200 anos, exceto por velhice. Restaura PV, remove venenos, cura contágios e maldições, substitui órgãos e membros danificados. Pode criar novo corpo se necessário, escolhendo local até 3 metros do conjurador.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "diamantes no valor de 25.000 PO consumidos",
+        "classes": [
+            "Clérigo",
+            "Druida"
         ]
     }
 ]
