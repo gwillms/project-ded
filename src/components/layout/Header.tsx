@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           </div>
           
           {/* Menu simples */}
-          <nav className="flex items-center space-x-6">
+          {/* <nav className="flex items-center space-x-6">
             <a href="#spells" className="text-sm text-slate-700 hover:text-red-600 transition-colors">
               Magias
             </a>
@@ -26,7 +26,7 @@ const Header: React.FC = () => {
             <a href="#equipment" className="text-sm text-slate-700 hover:text-red-600 transition-colors">
               Equipamentos
             </a>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>

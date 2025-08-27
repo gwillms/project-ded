@@ -75,73 +75,77 @@ const SpellsPage: React.FC = () => {
     });
 
   return (
-    <div className="bg-gray-50 min-h-screen p-4">
-      <div className="w-full mx-auto px-6">
+    <div className="bg-gray-50 min-h-screen p-2 sm:p-4">
+      <div className="w-full mx-auto px-2 sm:px-6">
         {/* Header com filtros */}
-        <div className="bg-white rounded-lg border border-gray-300 p-4 mb-4 shadow-sm">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
-                <label className="text-sm font-semibold text-gray-700">CLASSE</label>
+        <div className="bg-white rounded-lg border border-gray-300 p-3 sm:p-4 mb-4 shadow-sm">
+          {/* Primeira linha - Classe e Filtrar Preparadas */}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4 mb-4">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+              <div className="flex items-center gap-2">
+                <label className="text-sm font-semibold text-gray-700 whitespace-nowrap">CLASSE</label>
                 <select
                   value={selectedClass}
                   onChange={(e) => setSelectedClass(e.target.value)}
-                  className="px-3 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="flex-1 sm:flex-none px-3 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
                   <option value="all">-----</option>
                   {classes.map(className => (
                     <option key={className} value={className}>{className}</option>
                   ))}
                 </select>
-                <div className='ml-5'>
-                  <label className="flex items-center space-x-2 cursor-pointer">
-                    <span className="text-sm font-semibold text-gray-700">Filtrar Preparadas</span>
-                    <input
-                      type="checkbox"
-                      checked={showOnlyKnown}
-                      onChange={(e) => setShowOnlyKnown(e.target.checked)}
-                      className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-                    />
-                  </label>
-                </div>
+              </div>
+              
+              <label className="flex items-center gap-2 cursor-pointer">
+                <span className="text-sm font-semibold text-gray-700 whitespace-nowrap">Filtrar Preparadas</span>
+                <input
+                  type="checkbox"
+                  checked={showOnlyKnown}
+                  onChange={(e) => setShowOnlyKnown(e.target.checked)}
+                  className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                />
+              </label>
+            </div>
+          </div>
+          
+          {/* Segunda linha - Contador de preparadas e botão limpar (mobile: stack vertical) */}
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3 mb-4">
+            {/* Contador de magias preparadas por nível */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+              <span className="text-sm font-semibold text-gray-700 whitespace-nowrap">Preparadas por Nível:</span>
+              <div className="flex items-center flex-wrap gap-2">
+                {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(level => {
+                  const count = knownSpellsByLevel[level] || 0;
+                  if (count === 0) return null;
+                  return (
+                    <div key={level} className="flex items-center gap-1">
+                      <span
+                        className={`inline-flex items-center justify-center w-6 h-6 text-xs font-bold rounded-full text-white shadow-sm ${
+                          level === 0 ? 'bg-gray-600' :
+                          level === 1 ? 'bg-blue-500' :
+                          level === 2 ? 'bg-green-500' :
+                          level === 3 ? 'bg-yellow-500' :
+                          level === 4 ? 'bg-orange-500' :
+                          level === 5 ? 'bg-red-500' :
+                          level === 6 ? 'bg-purple-500' :
+                          level === 7 ? 'bg-pink-500' :
+                          level === 8 ? 'bg-indigo-500' :
+                          'bg-cyan-500'
+                        }`}
+                      >
+                        {level}
+                      </span>
+                      <span className="text-sm font-semibold text-gray-700">{count}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
-            
-            <div className="flex items-center space-x-4">
-              {/* Contador de magias preparadas por nível */}
-              <div className="flex items-center space-x-3">
-                <span className="text-sm font-semibold text-gray-700">Preparadas por Nível:</span>
-                <div className="flex items-center space-x-2">
-                  {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(level => {
-                    const count = knownSpellsByLevel[level] || 0;
-                    if (count === 0) return null;
-                    return (
-                      <div key={level} className="flex items-center space-x-1">
-                        <span
-                          className={`inline-flex items-center justify-center w-6 h-6 text-xs font-bold rounded-full text-white shadow-sm ${
-                            level === 0 ? 'bg-gray-600' :
-                            level === 1 ? 'bg-blue-500' :
-                            level === 2 ? 'bg-green-500' :
-                            level === 3 ? 'bg-yellow-500' :
-                            level === 4 ? 'bg-orange-500' :
-                            level === 5 ? 'bg-red-500' :
-                            level === 6 ? 'bg-purple-500' :
-                            level === 7 ? 'bg-pink-500' :
-                            level === 8 ? 'bg-indigo-500' :
-                            'bg-cyan-500'
-                          }`}
-                        >
-                          {level}
-                        </span>
-                        <span className="text-sm font-semibold text-gray-700">{count}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
 
-              <div className="flex items-center space-x-2">
-                <span className="text-sm font-semibold text-gray-700">Total</span>
+            {/* Total e botão limpar */}
+            <div className="flex items-center justify-between sm:justify-start gap-4">
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-semibold text-gray-700 whitespace-nowrap">Total</span>
                 <div className="w-8 h-8 border border-gray-300 rounded bg-white flex items-center justify-center text-xs font-semibold">
                   {knownSpells.size}
                 </div>
@@ -151,7 +155,7 @@ const SpellsPage: React.FC = () => {
               {knownSpells.size > 0 && (
                 <button
                   onClick={clearAllKnownSpells}
-                  className="flex items-center space-x-1 px-3 py-1 bg-red-500 text-white rounded text-sm hover:bg-red-600 transition-colors"
+                  className="flex items-center gap-1 px-3 py-1 bg-red-500 text-white rounded text-sm hover:bg-red-600 transition-colors whitespace-nowrap"
                   title="Limpar todas as magias preparadas"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -161,8 +165,9 @@ const SpellsPage: React.FC = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-            <div className="relative">
+          {/* Terceira linha - Filtros de busca */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+            <div className="relative sm:col-span-2 lg:col-span-1">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
               <input
                 type="text"
@@ -217,7 +222,7 @@ const SpellsPage: React.FC = () => {
           </div>
 
           {/* Grid de cards de magias */}
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 bg-white p-3 rounded-b border border-t-0">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 bg-white p-3 rounded-b border border-t-0">
             {filteredSpells.map((spell) => (
               <div
                 key={spell.id}
