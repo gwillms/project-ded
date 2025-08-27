@@ -63,7 +63,7 @@ const SpellsPage: React.FC = () => {
                 </select>
                 <div className='ml-5'>
                 <label className="flex items-center space-x-2 cursor-pointer">
-                <span className="text-sm font-semibold text-gray-700">Filtrar Conhecidas</span>
+                <span className="text-sm font-semibold text-gray-700">Filtrar Preparadas</span>
                 <input
                   type="checkbox"
                   checked={showOnlyKnown}
@@ -78,7 +78,7 @@ const SpellsPage: React.FC = () => {
             
             <div className="flex items-center space-x-4">              
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-semibold text-gray-700">Conhecidas</span>
+                <span className="text-sm font-semibold text-gray-700">Preparadas</span>
                 <div className="w-8 h-8 border border-gray-300 rounded bg-white flex items-center justify-center text-xs">
                   {knownSpells.size}
                 </div>
