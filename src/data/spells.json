@@ -3776,5 +3776,2008 @@
         ],
         "duration": "Concentração, até 1 hora",
         "description": "Invoca Espírito Bestial em um espaço desocupado. Escolha ambiente (Água, Ar, Terra) e forma do animal. Criatura é aliada, compartilha Iniciativa, obedece comandos verbais, desaparece ao ser reduzida a 0 PV ou ao final da magia."
+    },
+    {
+        "id": 201,
+        "name": "Invocar Ínfero",
+        "level": 6,
+        "school": "Invocação",
+        "classes": [
+            "Bruxo",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "27 metros",
+        "components": [
+            "V",
+            "S",
+            "M (frasco com sangue 600+ PO)"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Invoca um Espírito Ínfero (Demônio, Diabo ou Yugoloth). Criatura é aliada, compartilha Iniciativa, obedece comandos verbais e desaparece ao ser reduzida a 0 PV ou ao final da magia. Use o círculo do espaço de magia para determinar stats."
+    },
+    {
+        "id": 202,
+        "name": "Invocar Morto-Vivo",
+        "level": 3,
+        "school": "Necromancia",
+        "classes": [
+            "Bruxo",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "27 metros",
+        "components": [
+            "V",
+            "S",
+            "M (crânio dourado 300+ PO)"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Invoca um Espírito Morto-Vivo (Esquelético, Fantasmagórico ou Pútrido). Criatura é aliada, compartilha Iniciativa, obedece comandos verbais e desaparece ao ser reduzida a 0 PV ou ao final da magia. Use o círculo do espaço de magia para determinar stats."
+    },
+    {
+        "id": 203,
+        "name": "Invocar Saraivada",
+        "level": 5,
+        "school": "Invocação",
+        "classes": [
+            "Guardião"
+        ],
+        "casting_time": "Ação",
+        "range": "45 metros",
+        "components": [
+            "V",
+            "S",
+            "M (arma Corpo a Corpo ou à Distância 1+ PP)"
+        ],
+        "duration": "Instantânea",
+        "description": "Brande a arma usada e invoca centenas de armas espectrais em um Cilindro de 12m de raio e 6m de altura. Criaturas na área realizam salvaguarda de Destreza, sofrendo 8d8 dano Energético em falha, metade em sucesso."
+    },
+    {
+        "id": 204,
+        "name": "Invocar Seres da Floresta",
+        "level": 4,
+        "school": "Invocação",
+        "classes": [
+            "Druida",
+            "Guardião"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Cria espíritos da natureza em uma Emanação de 3 metros. Criaturas na Emanação realizam salvaguarda de Sabedoria, sofrendo 5d8 dano Energético em falha. Ação Bônus permite Desengajar. Dano aumenta 1d8 por nível acima de 4."
+    },
+    {
+        "id": 205,
+        "name": "Labirinto",
+        "level": 8,
+        "school": "Invocação",
+        "classes": [
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Bane uma criatura para um semiplano labiríntico. O alvo pode tentar escapar com teste de Inteligência (Investigação) CD 20. Ao final da magia, reaparece no espaço original ou no mais próximo disponível."
+    },
+    {
+        "id": 206,
+        "name": "Lâmina Flamejante",
+        "level": 2,
+        "school": "Evocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro"
+        ],
+        "casting_time": "Ação Bônus",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (folha de sumagre)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Evoca uma lâmina flamejante em sua mão livre. Ataque mágico corpo a corpo: 3d6 dano Ígneo + mod. conj. Lâmina emite Luz Plena 3m e Meia-luz 3m. Dano aumenta 1d6 por nível acima de 2."
+    },
+    {
+        "id": 207,
+        "name": "Lendas e Histórias",
+        "level": 5,
+        "school": "Adivinhação",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Mago"
+        ],
+        "casting_time": "10 minutos",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (incenso 250+ PO consumido e 4 tiras de marfim 50+ PO cada)"
+        ],
+        "duration": "Instantânea",
+        "description": "Traz à mente um breve resumo sobre uma pessoa, lugar ou objeto famoso. Fornece informações precisas e detalhadas conforme o conhecimento do conjurador. Falha se a coisa não for famosa."
+    },
+    {
+        "id": 208,
+        "name": "Lentidão",
+        "level": 3,
+        "school": "Transmutação",
+        "classes": [
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (gota de melaço)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Altera a passagem do tempo em até seis criaturas em um Cubo de 12m. Afeta deslocamento, salvaguardas de Destreza, CA, Reações e ações. Alvo repete salvaguarda no final de cada turno."
+    },
+    {
+        "id": 209,
+        "name": "Leque Cromático",
+        "level": 1,
+        "school": "Ilusão",
+        "classes": [
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (pitada de areia colorida)"
+        ],
+        "duration": "Instantânea",
+        "description": "Cria um Cone de 4,5 metros com luzes ofuscantes. Cada criatura realiza salvaguarda de Constituição ou fica Cega até o final do próximo turno."
+    },
+    {
+        "id": 210,
+        "name": "Levitação",
+        "level": 2,
+        "school": "Transmutação",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V",
+            "S",
+            "M (mola de metal)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Eleva criatura ou objeto solto até 6 metros, permanecendo suspenso. Permite mover o alvo empurrando ou puxando superfícies fixas. Flutua suavemente ao final da magia."
+    },
+    {
+        "id": 211,
+        "name": "Ligação Telepática de Rary",
+        "level": 5,
+        "school": "Adivinhação",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "casting_time": "Ação ou Ritual",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S",
+            "M (dois ovos)"
+        ],
+        "duration": "1 hora",
+        "description": "Cria ligação telepática entre até oito criaturas voluntárias, permitindo comunicação telepática independente de idioma. Não afeta criaturas sem capacidade de comunicação."
+    },
+    {
+        "id": 212,
+        "name": "Limpar a Mente",
+        "level": 8,
+        "school": "Abjuração",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Toque",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "24 horas",
+        "description": "Concede imunidade a dano Psíquico e condição Enfeitiçado. Alvo fica imune a detecção de emoções, alinhamento ou pensamentos. Nenhuma magia pode obter informações, observá-lo remotamente ou controlar sua mente."
+    },
+    {
+        "id": 213,
+        "name": "Línguas",
+        "level": 3,
+        "school": "Adivinhação",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Clérigo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Toque",
+        "components": [
+            "V",
+            "M (zigurate em miniatura)"
+        ],
+        "duration": "1 hora",
+        "description": "Permite à criatura tocada entender qualquer idioma falado ou sinalizado e ser compreendida por qualquer criatura que conheça pelo menos um idioma."
+    },
+    {
+        "id": 214,
+        "name": "Localizar Animais ou Plantas",
+        "level": 2,
+        "school": "Adivinhação",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Guardião"
+        ],
+        "casting_time": "Ação ou Ritual",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (pelo de um cão de caça)"
+        ],
+        "duration": "Instantânea",
+        "description": "Descreva ou nomeie uma criatura do tipo Fera, Planta ou planta não mágica. Descobre a direção e distância até a criatura ou planta mais próxima desse tipo, até 8 km, se houver alguma presente."
+    },
+    {
+        "id": 215,
+        "name": "Localizar Criatura",
+        "level": 4,
+        "school": "Adivinhação",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Guardião",
+            "Mago",
+            "Paladino"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (pelo de um cão de caça)"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Descreva ou nomeie uma criatura que conheça bem. Descobre a direção e localização se estiver a até 300 m. Se a criatura estiver se movendo, você sabe em que direção. Não funciona se a criatura estiver em forma diferente ou se um caminho direto estiver bloqueado por chumbo."
+    },
+    {
+        "id": 216,
+        "name": "Localizar Objeto",
+        "level": 2,
+        "school": "Adivinhação",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Guardião",
+            "Mago",
+            "Paladino"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (galho bifurcado)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Descreva ou nomeie um objeto que conheça bem. Descobre a direção e localização se estiver a até 300 m. Pode localizar um objeto específico ou o mais próximo de um tipo específico. Não funciona se um caminho direto estiver bloqueado por chumbo."
+    },
+    {
+        "id": 217,
+        "name": "Loquacidade",
+        "level": 8,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Bruxo"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V"
+        ],
+        "duration": "1 hora",
+        "description": "Enquanto durar a magia, ao realizar um teste de Carisma, você pode substituir o resultado por 15. Além disso, qualquer magia que determine se você está dizendo a verdade indica que você está sendo verdadeiro."
+    },
+    {
+        "id": 218,
+        "name": "Lufada de Vento",
+        "level": 2,
+        "school": "Evocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Guardião",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (semente de um legume)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Sopra uma Linha de vento de 18m x 3m. Criaturas na Linha realizam salvaguarda de Força ou são empurradas 4,5m. Gasta mais movimento se permanecer na Linha. Dispersa gases, vapores e chamas desprotegidas. Ação Bônus permite alterar a direção."
+    },
+    {
+        "id": 219,
+        "name": "Luz",
+        "level": 0,
+        "school": "Evocação",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Toque",
+        "components": [
+            "V",
+            "M (vaga-lume ou musgo fosforescente)"
+        ],
+        "duration": "1 hora",
+        "description": "Toca um objeto Grande ou menor. O objeto emite Luz Plena em raio de 6m e Meia-luz por mais 6m. A cor da luz pode ser escolhida. Cobrir o objeto bloqueia a luz. Conjurar novamente encerra a magia."
+    },
+    {
+        "id": 220,
+        "name": "Luz do Dia",
+        "level": 3,
+        "school": "Evocação",
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Feiticeiro",
+            "Guardião",
+            "Paladino"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "1 hora",
+        "description": "A luz do sol se espalha de um ponto no alcance da magia e preenche uma Esfera de 18 metros de raio. A área é Luz Plena e emite Meia-luz por mais 18 metros. Alternativamente, pode ser conjurada em um objeto que não esteja sendo usado ou carregado, emitindo luz de uma Emanação de 18 metros. Cobrir o objeto bloqueia a luz. Sobrepõe e dissipa magias de Escuridão de 3º círculo ou inferior."
+    },
+    {
+        "id": 221,
+        "name": "Luzes Dançantes",
+        "level": 0,
+        "school": "Ilusão",
+        "classes": [
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um pouco de fósforo)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria até quatro luzes do tamanho de tochas no alcance da magia, que podem parecer tochas, lanternas ou esferas brilhantes. Alternativamente, as quatro luzes podem se combinar em uma forma Média e vagamente humanoide. Cada luz emite Meia-luz em raio de 3 metros. Como Ação Bônus, você pode mover as luzes até 18 metros. Cada luz deve estar a até 6 metros de outra luz criada por esta magia e desaparece se ultrapassar o alcance da magia."
+    },
+    {
+        "id": 222,
+        "name": "Malogro",
+        "level": 4,
+        "school": "Necromancia",
+        "classes": [
+            "Bruxo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Instantânea",
+        "description": "Uma criatura à sua vista realiza uma salvaguarda de Constituição, sofrendo 8d8 pontos de dano Necrótico se falhar, ou metade em caso de sucesso. Plantas falham automaticamente. Alternativamente, uma planta não mágica murcha e morre. Usando Espaço de Magia de Círculo Superior, o dano aumenta em 1d8 por círculo acima de 4."
+    },
+    {
+        "id": 223,
+        "name": "Mansão Magnífica de Mordenkainen",
+        "level": 7,
+        "school": "Invocação",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "casting_time": "1 minuto",
+        "range": "90 metros",
+        "components": [
+            "V",
+            "S",
+            "M (uma porta em miniatura no valor de 15 ou mais PO)"
+        ],
+        "duration": "24 horas",
+        "description": "Cria uma moradia extradimensional acessível por uma porta cintilante. A moradia tem até 50 Cubos de 3 metros de lado, mobiliada à escolha do conjurador, contendo comida e até 100 servos quase transparentes que realizam tarefas sem causar dano. Ao término da magia, criaturas ou objetos dentro são expulsos para espaços desocupados próximos à entrada."
+    },
+    {
+        "id": 224,
+        "name": "Manto do Cruzado",
+        "level": 3,
+        "school": "Evocação",
+        "classes": [
+            "Paladino"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Irradia uma aura de 9 metros. Enquanto estiver na aura, você e aliados causam 1d4 pontos de dano Radiante adicionais ao atingir com arma ou Ataque Desarmado."
+    },
+    {
+        "id": 225,
+        "name": "Mão de Bigby",
+        "level": 5,
+        "school": "Evocação",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (uma casca de ovo e uma luva)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria uma mão grande de energia mágica que pode se mover 18 metros e realizar efeitos como Mão Esmagadora, Mão Interposta, Mão Vigorosa ou Punho Cerrado. A mão tem CA 20 e Pontos de Vida iguais aos seus. Usando Espaço de Magia de Círculo Superior, dano aumenta 2d8 (Punho Cerrado) ou 2d6 (Mão Esmagadora) por círculo acima de 5."
+    },
+    {
+        "id": 226,
+        "name": "Mãos Flamejantes",
+        "level": 1,
+        "school": "Evocação",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Instantânea",
+        "description": "Uma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza salvaguarda de Destreza; falha sofre 3d6 de dano Ígneo, sucesso metade. Objetos inflamáveis entram em combustão. Espaço de Magia Superior aumenta 1d6 por círculo acima de 1."
+    },
+    {
+        "id": 227,
+        "name": "Mãos Mágicas",
+        "level": 0,
+        "school": "Invocação",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "1 minuto",
+        "description": "Uma mão espectral flutuante aparece em um ponto à sua escolha no alcance. Pode manipular objetos, abrir portas, guardar ou despejar itens. Como ação Usar Magia, você pode mover a mão até 9 metros. Não pode atacar, ativar itens mágicos ou carregar mais de 5 quilos."
+    },
+    {
+        "id": 228,
+        "name": "Marca do Predador",
+        "level": 1,
+        "school": "Adivinhação",
+        "classes": [
+            "Guardião"
+        ],
+        "casting_time": "Ação Bônus",
+        "range": "27 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Marca magicamente uma criatura. Até o fim da magia, causa 1d6 de dano Energético adicional ao acertar o alvo. Vantagem em testes de Sabedoria para localizá-lo. Se alvo cair a 0 PV, ação bônus para mover a marca para outra criatura à vista. Espaços de Magia Superior aumentam duração da concentração até 8 horas (3º–4º círculo) ou 24 horas (5º ou superior)."
+    },
+    {
+        "id": 229,
+        "name": "Mau Olhado",
+        "level": 6,
+        "school": "Necromancia",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Seus olhos se tornam um vazio escuro. Uma criatura à sua escolha à vista e até 18 metros deve realizar salvaguarda de Sabedoria ou ser afetada por Adoecer (Envenenado), Adormecer (Inconsciente) ou Apavorar (Amedrontado). Em cada turno, você pode usar ação Usar Magia para atingir outra criatura que ainda não tenha resistido."
+    },
+    {
+        "id": 230,
+        "name": "Medo",
+        "level": 3,
+        "school": "Ilusão",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (uma pena branca)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cada criatura em um Cone de 9 metros deve realizar salvaguarda de Sabedoria ou larga o que estiver segurando e fica Amedrontada. Criaturas Amedrontadas devem executar a ação Correr em cada turno, afastando-se pela rota mais segura. Se não tiver linha de visão no fim do turno, realiza nova salvaguarda para encerrar a magia."
+    },
+    {
+        "id": 231,
+        "name": "Mensageiro Animal",
+        "level": 2,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Guardião"
+        ],
+        "casting_time": "Ação ou Ritual",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um bocado de comida)"
+        ],
+        "duration": "24 horas",
+        "description": "Uma Besta Minúscula deve entregar uma mensagem especificada por você a um destinatário no local definido. Se o Nível de Desafio da Fera não for 0, ela realiza automaticamente a salvaguarda de Carisma. A Fera viaja 40 km/24h ou 80 km/24h se puder voar. Espaços de Magia Superior aumentam duração em 48 horas por círculo acima de 2."
+    },
+    {
+        "id": 232,
+        "name": "Mensagem",
+        "level": 0,
+        "school": "Transmutação",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "S",
+            "M (um fio de cobre)"
+        ],
+        "duration": "1 rodada",
+        "description": "Você sussurra uma mensagem a uma criatura no alcance; apenas ela ouve e pode responder em sussurro que só você ouve. Pode ser conjurada através de objetos sólidos se você conhece o alvo. Silêncio mágico, 30 cm de pedra, metal ou madeira, ou folha de chumbo bloqueiam a magia."
+    },
+    {
+        "id": 233,
+        "name": "Mesclar-se às Rochas",
+        "level": 3,
+        "school": "Transmutação",
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Guardião"
+        ],
+        "casting_time": "Ação ou Ritual",
+        "range": "Toque",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "8 horas",
+        "description": "Você se funde com uma rocha grande, tornando-se invisível e indetectável para sentidos não mágicos. Pode conjurar magias enquanto fundido. Pode sair usando 1,5 metro de movimento. Danos à rocha não o afetam, mas destruição parcial causa 6d6 de dano Energético e destruição completa causa 50 de dano Energético, expulsando-o para o espaço desocupado mais próximo e ficando Caído."
+    },
+    {
+        "id": 234,
+        "name": "Metamorfose",
+        "level": 9,
+        "school": "Transmutação",
+        "classes": [
+            "Druida",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S",
+            "M (uma argola de jade no valor de 1.500 PO)"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Você se multimorfa em outra criatura com Nível de Desafio igual ou inferior ao seu. Deve ter visto esse tipo de criatura antes; não pode ser Constructo ou Morto-vivo. Recebe Pontos de Vida Temporários da forma inicial. Suas estatísticas são substituídas pelas da nova forma, mas mantém tipo de criatura, alinhamento, personalidade, Inteligência, Sabedoria, Carisma, PV, Dados de Vida e proficiências. Equipamento se ajusta ou cai conforme desejado."
+    },
+    {
+        "id": 235,
+        "name": "Miragem Arcana",
+        "level": 7,
+        "school": "Ilusão",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Mago"
+        ],
+        "casting_time": "10 minutos",
+        "range": "À sua vista",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "10 dias",
+        "description": "Você transforma um terreno de até 2,5 km² para parecer, soar, cheirar e ser sentido como outro tipo de terreno. Estradas, lagos e estruturas podem ser alterados visualmente. A ilusão inclui elementos visuais, auditivos, táteis e olfativos. Partes removidas desaparecem imediatamente. Criaturas com Visão Verdadeira veem a ilusão, mas ainda podem interagir fisicamente com ela. Terreno pode se tornar Difícil ou regular conforme a ilusão."
+    },
+    {
+        "id": 236,
+        "name": "Missão",
+        "level": 5,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Mago",
+            "Paladino"
+        ],
+        "casting_time": "1 minuto",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "30 dias",
+        "description": "Você dá um comando verbal a uma criatura à sua vista. O alvo deve realizar ou evitar uma ação conforme seu comando, falhando na salvaguarda de Sabedoria se não conseguir resistir, ficando Enfeitiçado. Se agir contra o comando, sofre 5d10 de dano Psíquico uma vez por dia. Comandos suicidas encerram a magia. Desejo, Remover Maldição ou Restauração Maior encerram a magia. Espaços de 7º–9º círculo aumentam a duração de forma equivalente, até permanente no 9º círculo."
+    },
+    {
+        "id": 237,
+        "name": "Mísseis Mágicos",
+        "level": 1,
+        "school": "Evocação",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Instantânea",
+        "description": "Você cria três dardos de energia mágica que acertam automaticamente uma criatura à sua escolha à vista e no alcance. Cada dardo causa 1d4+1 de dano Energético. Dardos podem atingir alvos diferentes ou o mesmo alvo. Espaços de magia de nível superior adicionam um dardo por nível acima de 1."
+    },
+    {
+        "id": 238,
+        "name": "Modificar Memória",
+        "level": 5,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Você remodela memórias de uma criatura à vista e no alcance da magia. O alvo realiza uma salvaguarda de Sabedoria; falhando, fica Enfeitiçado e Incapacitado. Pode-se alterar memórias de eventos recentes de até 10 minutos. Se a magia terminar antes da descrição completa, a memória não é alterada. Magias Remover Maldição ou Restauração Maior restauram memórias verdadeiras. Espaços de magia de nível superior aumentam o alcance temporal da memória a eventos mais antigos."
+    },
+    {
+        "id": 239,
+        "name": "Moldar Rochas",
+        "level": 4,
+        "school": "Transmutação",
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Toque",
+        "components": [
+            "V",
+            "S",
+            "M (argila mole)"
+        ],
+        "duration": "Instantânea",
+        "description": "Você toca um objeto de pedra Médio ou menor, ou uma seção de pedra de até 1,5 metro, moldando-a na forma desejada. Pode criar armas, estátuas, baús ou pequenas passagens. Portas podem ser seladas. Detalhes mecânicos finos, como fechaduras complexas, não são possíveis. Objetos podem ter até duas dobradiças e uma fechadura simples."
+    },
+    {
+        "id": 240,
+        "name": "Moléstia",
+        "level": 6,
+        "school": "Necromancia",
+        "classes": [
+            "Clérigo"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Instantânea",
+        "description": "Você libera magia virulenta em uma criatura à vista e no alcance. O alvo realiza uma salvaguarda de Constituição; falhando, sofre 14d6 de dano Necrótico e tem seus Pontos de Vida máximos reduzidos em valor igual ao dano. Em caso de sucesso, sofre metade do dano. A magia não reduz os Pontos de Vida máximos abaixo de 1."
+    },
+    {
+        "id": 241,
+        "name": "Montaria Fantasmagórica",
+        "level": 3,
+        "school": "Ilusão",
+        "classes": [
+            "Mago"
+        ],
+        "casting_time": "1 minuto ou Ritual",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "1 hora",
+        "description": "Uma criatura Grande semelhante a um cavalo aparece em um espaço desocupado à sua escolha. Você determina sua aparência e equipamento (sela, rédea, freio). A montaria pode ser usada por você ou por uma criatura à sua escolha. Deslocamento de 30 metros e pode viajar 20 km/h. A magia termina se a montaria sofrer dano ou ao final da duração."
+    },
+    {
+        "id": 242,
+        "name": "Mover Terra",
+        "level": 6,
+        "school": "Transmutação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (uma pá em miniatura)"
+        ],
+        "duration": "Concentração, até 2 horas",
+        "description": "Escolha uma área de terreno de até 12 metros de lado. Você pode remodelar terra, areia ou argila: alterar elevação, criar ou preencher trincheiras, erguer ou aplainar paredes ou formar pilares. As mudanças não excedem metade da maior dimensão da área. As transformações levam 10 minutos para serem concluídas. Pode escolher nova área a cada 10 minutos de concentração. Não afeta pedra natural ou construções de pedra. Plantas na área são movidas junto com a terra."
+    },
+    {
+        "id": 243,
+        "name": "Movimentação Livre",
+        "level": 4,
+        "school": "Abjuração",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida",
+            "Guardião"
+        ],
+        "casting_time": "Ação",
+        "range": "Toque",
+        "components": [
+            "V",
+            "S",
+            "M (uma alça de couro)"
+        ],
+        "duration": "1 hora",
+        "description": "Você toca uma criatura voluntária. Durante a duração, o movimento do alvo não é afetado por Terreno Difícil, magias ou efeitos que reduzam deslocamento ou causem Contido/Paralisado. O alvo tem deslocamento de Natação igual ao de caminhada. Pode gastar 1,5 metro para escapar automaticamente de restrições não mágicas. Espaços de magia de nível superior permitem escolher uma criatura adicional por círculo acima de 4."
+    },
+    {
+        "id": 244,
+        "name": "Muralha de Energia",
+        "level": 5,
+        "school": "Evocação",
+        "classes": [
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um caco de vidro)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Uma muralha de energia invisível surge em um ponto à sua escolha. Pode ser horizontal, vertical, inclinação, hemisfério, globo ou superfície plana de até 10 painéis de 3 metros. Espessura de 6 mm. Imune a danos físicos e não pode ser dissipada, exceto por Desintegrar. Bloqueia viagens etéreas e linha de visão. Criaturas na área ao surgir são empurradas."
+    },
+    {
+        "id": 245,
+        "name": "Muralha de Espinhos",
+        "level": 6,
+        "school": "Invocação",
+        "classes": [
+            "Druida"
+        ],
+        "casting_time": "Uma Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um punhado de espinhos)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Cria uma muralha de espinhos em uma superfície sólida, à vista e no alcance. Pode ser linear (18m x 3m x 1,5m) ou circular (6m diâmetro x 6m altura x 1,5m espessura). Bloqueia linha de visão. Criaturas na área fazem salvaguarda de Destreza, sofrendo 7d8 de dano Perfurante ou metade em caso de sucesso. Movimentação na muralha custa 6 metros para cada 1,5m atravessados, sofrendo dano ao entrar ou terminar o turno lá. Espaços de magia de nível superior aumentam o dano em 1d8 por círculo acima de 6."
+    },
+    {
+        "id": 247,
+        "name": "Muralha de Fogo",
+        "level": 4,
+        "school": "Evocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um pedaço de carvão)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria uma muralha de fogo em uma superfície sólida. Pode ser linear (18m x 6m x 0,3m) ou circular (6m diâmetro x 6m altura x 0,3m espessura). Um lado escolhido causa 5d8 de dano Ígneo a cada criatura que termina o turno nele até 3m ou entra na muralha. O dano aumenta 1d8 por nível de espaço de magia acima de 4."
+    },
+    {
+        "id": 248,
+        "name": "Muralha de Gelo",
+        "level": 6,
+        "school": "Evocação",
+        "classes": [
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um pedaço de quartzo)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Cria uma muralha de gelo em superfície sólida. Pode ser cúpula hemisférica, globo (raio 3m) ou superfície plana com 10 painéis de 3m. Espessura 0,3m. Criaturas empurradas e salvaguarda de Destreza; falha sofre 10d6 Gélido, metade em sucesso. Muralha: CA 12, 30 PV por painel, Imunidade a Gélido, Psíquico, Venenoso, Vulnerável a Ígneo. Reduzir um painel a 0 PV destrói o painel e cria camada de ar gélido. Atravessar a camada exige salvaguarda de Constituição, 5d6 Gélido. Dano aumenta por nível de magia acima de 6."
+    },
+    {
+        "id": 249,
+        "name": "Muralha de Pedra",
+        "level": 5,
+        "school": "Evocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um cubo de granito)"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Cria uma muralha de pedra maciça, 15 cm de espessura, composta de 10 painéis de 3m. Pode ter qualquer forma, desde que solidamente suportada. Criaturas empurradas se salvaguardarem. Painéis: CA 15, 30 PV por 2,5 cm de espessura, Imunidade a Gélido, Psíquico e Venenoso. Painel a 0 PV é destruído. Concentração total torna a muralha permanente."
+    },
+    {
+        "id": 250,
+        "name": "Muralha de Vento",
+        "level": 3,
+        "school": "Evocação",
+        "classes": [
+            "Druida",
+            "Guardião"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um leque e uma pena)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Uma muralha de vento forte surge, até 15m comprimento, 4,5m altura e 0,3m espessura. O vento mantém gases e névoa afastados. Criaturas ou objetos Pequenos não podem atravessar; projéteis comuns são desviados. Ao surgir, criaturas na área fazem salvaguarda de Força (falha: 4d8 Contundente, sucesso metade)."
+    },
+    {
+        "id": 251,
+        "name": "Muralha Prismática",
+        "level": 9,
+        "school": "Abjuração",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "10 minutos",
+        "description": "Uma parede vertical opaca (27m comprimento x 9m altura x 2,5cm) ou globo (9m diâmetro). Luz Plena 30m, Meia-luz mais 30m. Criaturas escolhidas podem passar sem dano. Outras que se aproximarem devem realizar salvaguarda de Constituição ou ficam Cegas por 1 minuto. Possui 7 camadas coloridas, cada uma com efeitos diferentes (Vermelho: 12d6 Ígneo; Laranja: 12d6 Ácido; Amarelo: 12d6 Elétrico; Verde: 12d6 Venenoso; Azul: 12d6 Gélido; Anil: Contido com salvaguarda; Violeta: Cego e possível teleporte para outro plano). Cada camada pode ser destruída de acordo com suas vulnerabilidades."
+    },
+    {
+        "id": 252,
+        "name": "Nevasca",
+        "level": 3,
+        "school": "Invocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "45 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um guarda-chuva em miniatura)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Granizo cai em um cilindro de 12m de altura e 6m de raio. Área Totalmente Obscurecida e chamas expostas são apagadas. Solo se torna Terreno Difícil. Criaturas que entram ou começam o turno no cilindro devem fazer salvaguarda de Destreza ou ficam Caídas e perdem Concentração."
+    },
+    {
+        "id": 253,
+        "name": "Névoa Mortal",
+        "level": 5,
+        "school": "Invocação",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 10 minutos",
+        "description": "Cria uma esfera de 6m de raio de névoa amarelo-esverdeada. Área Totalmente Obscurecida. Criaturas na esfera fazem salvaguarda de Constituição (falha: 5d8 Venenoso, sucesso metade). A esfera se afasta 3m de você no início de cada turno. Dano aumenta 1d8 para cada círculo acima de 5."
+    },
+    {
+        "id": 254,
+        "name": "Névoa Obscurecente",
+        "level": 1,
+        "school": "Invocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Guardião",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Cria uma esfera de névoa de 6m de raio Totalmente Obscurecida. Permanece até a dispersão por vento forte ou fim da magia. Usando espaço de círculo superior, o raio aumenta em 6m por círculo acima de 1."
+    },
+    {
+        "id": 255,
+        "name": "Nuvem de Adagas",
+        "level": 2,
+        "school": "Invocação",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um caco de vidro)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria um cubo de 1,5m de lado com adagas rodopiantes. Criaturas na área sofrem 4d4 Cortante ao entrar, terminar turno ou se o cubo se mover para o espaço delas. Nos turnos subsequentes, você pode teleportar o cubo até 9m. Dano aumenta 2d4 por círculo acima de 2."
+    },
+    {
+        "id": 256,
+        "name": "Nuvem Fétida",
+        "level": 3,
+        "school": "Invocação",
+        "classes": [
+            "Bardo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "27 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um ovo podre)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria uma esfera de 6m de raio de gás amarelo nauseante, Totalmente Obscurecida. Criaturas que começam o turno na esfera devem fazer salvaguarda de Constituição ou ficam Envenenadas até o fim do turno, não podendo executar ações."
+    },
+    {
+        "id": 257,
+        "name": "Nuvem Incendiária",
+        "level": 8,
+        "school": "Invocação",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "45 metros",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Uma esfera de 6m de raio de brasas e fumaça, Totalmente Obscurecida. Criaturas dentro realizam salvaguarda de Destreza (falha: 10d8 Ígneo, sucesso metade). A nuvem se afasta 3m por turno na direção escolhida. Salvaguardas também ao mover-se para a nuvem ou terminar o turno nela."
+    },
+    {
+        "id": 258,
+        "name": "Olho Arcano",
+        "level": 4,
+        "school": "Adivinhação",
+        "classes": [
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "9 metros",
+        "components": [
+            "V",
+            "S",
+            "M (um pouco de pele de morcego)"
+        ],
+        "duration": "Concentração, até 1 hora",
+        "description": "Cria um olho invisível e invulnerável no alcance da magia. Você recebe informações visuais em todas as direções, com Visão no Escuro de 9m. Como Ação Bônus, pode mover o olho até 9m; barreiras sólidas bloqueiam, mas pode passar por aberturas de até 2,5cm."
+    },
+    {
+        "id": 259,
+        "name": "Onda Destrutiva",
+        "level": 5,
+        "school": "Evocação",
+        "classes": [
+            "Paladino"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Uma emanação de 9m irradia de você. Cada criatura à escolha realiza salvaguarda de Constituição (falha: 5d6 Trovejante + 5d6 Necrótico ou Radiante, e fica Caído; sucesso metade)."
+    },
+    {
+        "id": 260,
+        "name": "Onda Trovejante",
+        "level": 1,
+        "school": "Evocação",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Instantânea",
+        "description": "Libera uma onda estrondosa em um Cubo de 4,5m. Criaturas no cubo fazem salvaguarda de Constituição (falha: 2d8 Trovejante + empurradas 3m, sucesso metade). Objetos soltos são empurrados 3m. Estrondo audível até 90m. Dano aumenta 1d8 por círculo acima de 1."
+    },
+    {
+        "id": 261,
+        "name": "Oração de Cura",
+        "level": 2,
+        "school": "Abjuração",
+        "classes": [
+            "Clérigo",
+            "Paladino"
+        ],
+        "casting_time": "10 minutos",
+        "range": "9 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Até cinco criaturas que permanecerem no alcance durante a conjuração recuperam 2d8 PV e obtêm benefícios de Descanso Curto. Uma criatura não pode ser afetada novamente até completar um Descanso Longo. Usando espaço de círculo superior, cura aumenta 1d8 por círculo acima de 2."
+    },
+    {
+        "id": 262,
+        "name": "Orbe Cromático",
+        "level": 1,
+        "school": "Evocação",
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "27 metros",
+        "components": [
+            "V",
+            "S",
+            "M (diamante ≥50 PO)"
+        ],
+        "duration": "Instantânea",
+        "description": "Arremessa um orbe de energia em um alvo. Escolha Ácido, Elétrico, Gélido, Ígneo, Trovejante ou Venenoso. Ataque à distância: acerto causa 3d8 de dano. Se dois ou mais dados iguais, o orbe salta para outro alvo até 9m. Usando espaço superior, dano aumenta 1d8 por círculo acima de 1; orbe pode saltar número máximo igual ao círculo de espaço de magia."
+    },
+    {
+        "id": 263,
+        "name": "Orientação",
+        "level": "Truque",
+        "school": "Adivinhação",
+        "classes": [
+            "Clérigo",
+            "Druida"
+        ],
+        "casting_time": "Ação",
+        "range": "Toque",
+        "components": [
+            "V",
+            "S"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Toca uma criatura voluntária e escolhe uma perícia. Até o fim da magia, a criatura adiciona 1d4 a testes de atributo usando a perícia escolhida."
+    },
+    {
+        "id": 264,
+        "name": "Padrão Hipnótico",
+        "level": 3,
+        "school": "Ilusão",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "36 metros",
+        "components": [
+            "S",
+            "M (confete)"
+        ],
+        "duration": "Concentração, até 1 minuto",
+        "description": "Cria um padrão de cores em um cubo de 9m. Criaturas que veem fazem salvaguarda de Sabedoria ou ficam Enfeitiçadas (Incapacitado, Deslocamento 0). A magia termina se sofrer dano ou alguém sacudir a criatura."
+    },
+    {
+        "id": 265,
+        "name": "Palavra Curativa",
+        "level": 1,
+        "school": "Abjuração",
+        "classes": [
+            "Bardo",
+            "Clérigo",
+            "Druida"
+        ],
+        "casting_time": "Ação Bônus",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Uma criatura à sua escolha recupera 2d4 PV + modificador de conjuração. Espaço superior aumenta cura em 2d4 por círculo acima de 1."
+    },
+    {
+        "id": 266,
+        "name": "Palavra Curativa em Massa",
+        "level": 3,
+        "school": "Abjuração",
+        "classes": [
+            "Bardo",
+            "Clérigo"
+        ],
+        "casting_time": "Ação Bônus",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Até seis criaturas à sua escolha recuperam 2d4 PV + modificador de conjuração. Espaço superior aumenta cura 1d4 por círculo acima de 3."
+    },
+    {
+        "id": 267,
+        "name": "Palavra de Poder: Atordoar",
+        "level": 8,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Domina a mente de uma criatura. Se tiver ≤150 PV, fica Atordoada. Caso contrário, Deslocamento 0. Salvaguarda de Constituição no final de cada turno para encerrar Atordoado."
+    },
+    {
+        "id": 268,
+        "name": "Palavra de Poder: Fortificar",
+        "level": 7,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Clérigo"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Fortalece até seis criaturas. Concede 120 PV Temporários, que podem ser divididos entre os alvos."
+    },
+    {
+        "id": 269,
+        "name": "Palavra de Poder: Matar",
+        "level": 9,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Força uma criatura a morrer. Se tiver ≤100 PV, morre. Caso contrário, sofre 12d12 de dano Psíquico."
+    },
+    {
+        "id": 270,
+        "name": "Palavra de Poder: Salvar",
+        "level": 9,
+        "school": "Encantamento",
+        "classes": [
+            "Bardo",
+            "Clérigo"
+        ],
+        "casting_time": "Ação",
+        "range": "18 metros",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "O alvo recupera todos os PV e remove condições Amedrontado, Atordoado, Enfeitiçado, Envenenado ou Paralisado. Se Caído, pode usar Reação para se levantar."
+    },
+    {
+        "id": 271,
+        "name": "Palavra de Radiância",
+        "level": "Truque",
+        "school": "Evocação",
+        "classes": [
+            "Clérigo"
+        ],
+        "casting_time": "Ação",
+        "range": "Pessoal",
+        "components": [
+            "V",
+            "M (símbolo de sol)"
+        ],
+        "duration": "Instantânea",
+        "description": "Radiância irrompe em Emanação de 1,5m. Criaturas à escolha fazem salvaguarda de Constituição ou sofrem 1d6 Radiante. Dano aumenta para 2d6, 3d6, 4d6 nos níveis 5, 11 e 17."
+    },
+    {
+        "id": 272,
+        "name": "Palavra de Regresso",
+        "level": 6,
+        "school": "Invocação",
+        "classes": [
+            "Clérigo"
+        ],
+        "casting_time": "Ação",
+        "range": "1,5 metro",
+        "components": [
+            "V"
+        ],
+        "duration": "Instantânea",
+        "description": "Você e até cinco criaturas voluntárias a até 1,5m se teleportam instantaneamente para um santuário previamente preparado. Aparecem no espaço desocupado mais próximo. Sem santuário preparado, a magia não tem efeito."
+    },
+    {
+        "id": 273,
+        "name": "Palavra Sagrada",
+        "level": 7,
+        "school": "Evocação",
+        "castingTime": "Ação Bônus",
+        "range": "9 metros",
+        "duration": "Instantânea",
+        "description": "Você pronuncia uma palavra imbuída de poder dos Planos Superiores. Cada criatura à sua escolha no alcance da magia realiza uma salvaguarda de Carisma. Se falhar, um alvo com 50 Pontos de Vida ou menos sofre um efeito com base nos Pontos de Vida atuais dele. Independentemente dos Pontos de Vida, um alvo Celestial, Elemental, Feérico ou Ínfero que falhar na salvaguarda é forçado a voltar ao seu plano de origem (se ainda não estiver lá) e não pode retornar ao plano atual por 24 horas, exceto por magia Desejo.\n\nEfeitos de Palavra Sagrada:\n0–20: O alvo morre.\n21–30: O alvo está Atordoado, Cego e Surdo por 1 hora.\n31–40: O alvo está Cego e Surdo por 10 minutos.\n41–50: O alvo tem a condição Surdo por 1 minuto.",
+        "components": [
+            "V"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo"
+        ]
+    },
+    {
+        "id": 274,
+        "name": "Paralisar Monstro",
+        "level": 5,
+        "school": "Encantamento",
+        "castingTime": "Ação",
+        "range": "27 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Escolha uma criatura à sua vista e no alcance da magia. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou fica Paralisado pela duração da magia. No final de cada um dos turnos do alvo, ele realiza uma nova salvaguarda, encerrando a magia em caso de sucesso. Usando um Espaço de Magia de Círculo Superior, você pode escolher uma criatura adicional para cada círculo acima de 5.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um pedaço reto de ferro",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 275,
+        "name": "Paralisar Pessoa",
+        "level": 2,
+        "school": "Encantamento",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Escolha um Humanoide à sua vista e no alcance da magia. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou fica Paralisado pela duração da magia. No final de cada um dos turnos dele, o alvo realiza uma nova salvaguarda, encerrando a magia em caso de sucesso. Usando um Espaço de Magia de Círculo Superior, você pode escolher um Humanoide adicional para cada círculo acima de 2.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um pedaço reto de ferro",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Clérigo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 276,
+        "name": "Parar o Tempo",
+        "level": 9,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Instantânea",
+        "description": "Você interrompe brevemente o fluxo do tempo para todos, menos para si. O tempo não passa para outras criaturas enquanto você faz 1d4 +1 turnos consecutivos, durante os quais pode usar ações e se mover normalmente. A magia encerra se uma ação ou efeito criado durante esse período afetar outra criatura ou objeto que não seja você. Além disso, encerra se você se mover a mais de 300 metros do local onde a conjurou.",
+        "components": [
+            "V"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 277,
+        "name": "Passo Arbóreo",
+        "level": 5,
+        "school": "Invocação",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Você adquire a capacidade de entrar em uma árvore e se mover de dentro dela para outra árvore do mesmo tipo a até 150 metros. Ambas devem ser vivas e do tamanho mínimo que você ocupa. Você gasta 1,5 metro de movimento para entrar na árvore, sabe a localização de todas as outras árvores do mesmo tipo e pode mover-se por elas ou sair de uma árvore para outra. Você aparece a até 1,5 metro da árvore-destino usando outro 1,5 metro de movimento. Pode usar essa habilidade apenas uma vez por turno e deve terminar cada turno fora de uma árvore.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Druida",
+            "Guardião"
+        ]
+    },
+    {
+        "id": 278,
+        "name": "Passo Nebuloso",
+        "level": 2,
+        "school": "Invocação",
+        "castingTime": "Ação Bônus",
+        "range": "Pessoal",
+        "duration": "Instantânea",
+        "description": "Brevemente cercado por uma névoa prateada, você se teleporta até 9 metros para um espaço desocupado à sua vista.",
+        "components": [
+            "V"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 279,
+        "name": "Passo Sem Rastro",
+        "level": 2,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Concentração, até 1 hora",
+        "description": "Você irradia uma aura de ocultação em uma Emanação de 9 metros pela duração da magia. Enquanto estiver na aura, você e cada criatura escolhida têm um bônus de +10 em testes de Destreza (Furtividade) e não deixam rastros.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "cinzas de ramo de visco queimado",
+        "classes": [
+            "Druida",
+            "Guardião"
+        ]
+    },
+    {
+        "id": 280,
+        "name": "Passos Largos",
+        "level": 1,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "1 hora",
+        "description": "Você toca uma criatura. O Deslocamento do alvo aumenta em 3 metros até que a magia termine. Usando um Espaço de Magia de Círculo Superior, você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma pitada de poeira",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Guardião",
+            "Mago"
+        ]
+    },
+    {
+        "id": 281,
+        "name": "Pele-Casca",
+        "level": 2,
+        "school": "Transmutação",
+        "castingTime": "Ação Bônus",
+        "range": "Toque",
+        "duration": "1 hora",
+        "description": "Você toca uma criatura voluntária. Até que a magia termine, a pele do alvo assume uma aparência de casca de árvore, e o alvo tem uma Classe de Armadura de 17 se sua CA for menor que isso.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um punhado de casca de árvore",
+        "classes": [
+            "Druida",
+            "Guardião"
+        ]
+    },
+    {
+        "id": 282,
+        "name": "Pele-Rocha",
+        "level": 4,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "Concentração, até 1 hora",
+        "description": "Até que a magia termine, uma criatura voluntária que você toque tem Resistência a dano Contundente, Cortante e Perfurante.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "poeira de diamante no valor de 100 ou mais PO, que a magia consome",
+        "classes": [
+            "Druida",
+            "Feiticeiro",
+            "Guardião",
+            "Mago"
+        ]
+    },
+    {
+        "id": 283,
+        "name": "Pequeno Refúgio de Leomund",
+        "level": 3,
+        "school": "Evocação",
+        "castingTime": "1 minuto ou Ritual",
+        "range": "Pessoal",
+        "duration": "8 horas",
+        "description": "Uma Emanação de 3 metros surge ao seu redor e permanece estacionária pela duração. A magia falha se a Emanação não for grande o suficiente para envolver todas as criaturas em sua área. Criaturas e objetos dentro da Emanação podem se mover livremente. Todas as outras criaturas e objetos são impedidos de atravessá-la. Magias de 3º círculo ou inferior não podem ser conjuradas através dela. A atmosfera no interior da Emanação é confortável e seca. Até que a magia termine, você pode determinar se há Meia-luz ou Escuridão no interior. A Emanação é opaca por fora e transparente por dentro. A magia encerra se você sair da Emanação ou a conjurar novamente.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma conta de cristal",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 284,
+        "name": "Perdição",
+        "level": 1,
+        "school": "Encantamento",
+        "castingTime": "Ação",
+        "range": "9 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Até três criaturas à sua escolha à sua vista e no alcance da magia devem realizar uma salvaguarda de Carisma. Sempre que um alvo que falhar nesta salvaguarda realizar uma jogada de ataque ou salvaguarda antes da magia terminar, o alvo deve subtrair 1d4 da jogada de ataque ou salvaguarda. Usando um Espaço de Magia de Círculo Superior, você pode escolher uma criatura adicional para cada círculo acima de 1.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma gota de sangue",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Clérigo"
+        ]
+    },
+    {
+        "id": 285,
+        "name": "Piscar",
+        "level": 3,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "1 minuto",
+        "description": "Jogue 1d6 no final de cada um dos seus turnos. Em um resultado de 4-6, você desaparece do seu plano de existência atual e aparece no Plano Etéreo. Enquanto estiver lá, você pode ver o plano que deixou em tons de cinza, mas não pode ver nada a mais de 18 metros. Você só pode afetar e ser afetado por criaturas no Plano Etéreo. Você retorna ao outro plano no início do seu próximo turno ou quando a magia termina, aparecendo em um espaço desocupado à sua vista e até 3 metros do espaço que deixou. Se nenhum espaço estiver disponível, aparece no mais próximo.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 286,
+        "name": "Polimorfia",
+        "level": 4,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Concentração, até 1 hora",
+        "description": "Você tenta transformar uma criatura à sua vista e no alcance da magia em uma Fera. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou se transforma em uma Fera pela duração da magia. A forma pode ser qualquer Fera com Nível de Desafio igual ou menor que o do alvo (ou igual ao seu nível se não tiver Nível de Desafio). As estatísticas do alvo são substituídas pelas da Fera escolhida, mas ele mantém alinhamento, personalidade, tipo de criatura, Pontos de Vida e Dados de Pontos de Vida. O alvo recebe Pontos de Vida Temporários iguais aos da forma de Fera. A magia termina se o alvo não tiver Pontos de Vida Temporários restantes, ou eles desaparecem quando a magia termina. O alvo está limitado às ações de sua nova forma, não pode falar ou conjurar magias, e seu equipamento se funde à forma.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um casulo de lagarta",
+        "classes": [
+            "Bardo",
+            "Druida",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 287,
+        "name": "Polimorfia Total",
+        "level": 9,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "9 metros",
+        "duration": "Concentração, até 1 hora",
+        "description": "Escolha uma criatura ou objeto não mágico à sua vista e no alcance da magia. A criatura se transforma em outra criatura ou objeto, ou um objeto em criatura, permanecendo pela duração da magia ou até ser destruído/morto. Se a Concentração for mantida por toda a duração, a magia permanece até ser dissipada. Criaturas involuntárias podem realizar uma salvaguarda de Sabedoria para resistir. As formas devem obedecer limites de Nível de Desafio e tamanho, e mantêm Pontos de Vida Temporários iguais à nova forma. A criatura está limitada às ações da nova forma e não pode falar ou conjurar magias; o equipamento se funde à forma e não pode ser usado.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma porção de mercúrio, uma dose de goma arábica e um fiapo de fumaça",
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 288,
+        "name": "Porta Dimensional",
+        "level": 4,
+        "school": "Invocação",
+        "castingTime": "Ação",
+        "range": "150 metros",
+        "duration": "Instantânea",
+        "description": "Você se teleporta para um local no alcance da magia. Pode ser um local visível, visualizado ou descrito por distância e direção. Também pode teleportar uma criatura voluntária a até 1,5 metro de você, que aparece a até 1,5 metro do destino. Se você ou a criatura chegarem a um espaço ocupado ou preenchido, sofrem 4d6 pontos de dano Energético e o teleporte falha.",
+        "components": [
+            "V"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 289,
+        "name": "Portais Arcanos",
+        "level": 6,
+        "school": "Invocação",
+        "castingTime": "Ação",
+        "range": "150 metros",
+        "duration": "Concentração, até 10 minutos",
+        "description": "Você cria portais de teleporte vinculados. Escolha dois espaços grandes e desocupados no chão à sua vista, um espaço no alcance da magia e outro a até 3 metros de você. Um portal circular se abre em cada espaço e permanece pela duração da magia. Os portais são anéis brilhantes bidimensionais cheios de névoa que bloqueiam a visão e pairam a centímetros do chão. Um portal fica aberto apenas de um lado (à sua escolha). Qualquer coisa que entre no lado aberto de um portal sai do lado aberto do outro portal como se fossem adjacentes. Como Ação Bônus, você pode alterar a face dos lados abertos.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 290,
+        "name": "Portal",
+        "level": 9,
+        "school": "Invocação",
+        "castingTime": "Ação",
+        "range": "18 metros",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Você conjura um portal ligando um espaço desocupado à sua vista a um local preciso em outro plano. O portal é circular (1,5 a 6 metros de diâmetro) e pode ser orientado em qualquer direção. Ele permanece pela duração da magia e o destino é visível através dele. A frente e o verso do portal determinam a direção do deslocamento. Divindades e governantes dos planos podem impedir a abertura do portal. Ao nomear uma criatura específica em outro plano, o portal se abre ao lado dela e a transporta, sem que você tenha controle sobre suas ações.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um diamante no valor de 5.000 ou mais PO",
+        "classes": [
+            "Bruxo",
+            "Clérigo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 291,
+        "name": "Praga de Insetos",
+        "level": 5,
+        "school": "Invocação",
+        "castingTime": "Ação",
+        "range": "90 metros",
+        "duration": "Concentração, até 10 minutos",
+        "description": "Um enxame de gafanhotos preenche uma Esfera de 6 metros de raio centrada em um ponto à sua escolha. A área é Parcialmente Obscurecida e Terreno Difícil. Criaturas na área realizam salvaguarda de Constituição: falha causa 4d10 de dano Perfurante, sucesso metade. Criaturas também realizam salvaguarda ao entrar na área ou encerrar o turno nela, apenas uma vez por turno. Espaços de Magia de Círculo Superior aumentam o dano em 1d10 por nível acima do 5º círculo.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um gafanhoto",
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Feiticeiro"
+        ]
+    },
+    {
+        "id": 292,
+        "name": "Presença Régia de Yolande",
+        "level": 5,
+        "school": "Encantamento",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Você se envolve com majestade sobrenatural em uma Emanação de 3 metros. Sempre que a Emanação entra no espaço de uma criatura à sua vista, ou uma criatura entra ou termina seu turno nela, você pode forçar a criatura a realizar uma salvaguarda de Sabedoria. Falha causa 4d6 de dano Psíquico e a condição Caído, podendo empurrar até 3 metros. Sucesso causa metade do dano. Cada criatura realiza a salvaguarda apenas uma vez por turno.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma tiara em miniatura",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 293,
+        "name": "Presságio",
+        "level": 4,
+        "school": "Adivinhação",
+        "castingTime": "Ação ou Ritual",
+        "range": "Pessoal",
+        "duration": "Instantânea",
+        "description": "Esta magia coloca você em contato com um deus ou seus servos. Você faz uma pergunta sobre um objetivo, evento ou atividade específica que ocorrerá em até 7 dias. O Mestre oferece uma resposta verdadeira, que pode ser uma frase curta ou rima enigmática. Conjurações múltiplas antes de um Descanso Longo têm chance cumulativa de 25% de não receber resposta.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "incenso no valor de 25 ou mais PO, consumido",
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Mago"
+        ]
+    },
+    {
+        "id": 294,
+        "name": "Prestidigitação Arcana",
+        "level": 0,
+        "school": "Transmutação",
+        "castingTime": "Ação",
+        "range": "3 metros",
+        "duration": "Até 1 hora",
+        "description": "Você cria um efeito mágico no alcance da magia. Pode escolher entre: Brincar com Fogo (acender/apagar vela ou pequena fogueira), Criação Menor (bugiganga ou imagem ilusória pequena), Efeito Sensorial (chuva de faíscas, sopro de vento, notas musicais, odor), Limpar ou Sujar (objeto <30 cm³), Marca Mágica (cor, símbolo ou marca por 1 hora), Sensação Ideal (alterar temperatura ou sabor de material <30 cm³ por 1 hora). Pode ter até três efeitos não instantâneos ativos simultaneamente.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 295,
+        "name": "Proibição",
+        "level": 6,
+        "school": "Abjuração",
+        "castingTime": "10 minutos ou Ritual",
+        "range": "Toque",
+        "duration": "1 dia",
+        "description": "Você cria uma proteção contra viagens mágicas que protege até 3.700 metros quadrados de espaço a uma altura de 9 metros. Criaturas não podem se teleportar para a área ou usar portais para entrar. A magia bloqueia viagens planares (Astral, Etéreo, Faéria, Sombral, Transição Planar). Causa 5d10 de dano Necrótico ou Radiante (à escolha) aos tipos de criaturas selecionados (Aberrações, Celestiais, Elementais, Feéricos, Ínferos, Mortos-Vivos) quando entram ou terminam o turno na área. Você pode definir uma senha que impede dano da magia. A área não pode se sobrepor a outra Proibição e conjurações diárias consecutivas estendem a duração final.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "rubi em pó no valor de 1.000 ou mais PO",
+        "classes": [
+            "Clérigo"
+        ]
+    },
+    {
+        "id": 296,
+        "name": "Projeção Astral",
+        "level": 9,
+        "school": "Necromancia",
+        "castingTime": "1 hora",
+        "range": "3 metros",
+        "duration": "Até ser dissipada",
+        "description": "Você e até oito criaturas voluntárias projetam seus corpos astrais no Plano Astral. O corpo é deixado inconsciente e suspenso. A forma astral se assemelha ao corpo, com cordão prateado conectando ambos. O cordão pode ser cortado apenas por efeito específico, matando a criatura. Formas astrais podem viajar pelo Plano Astral; ao sair dele, o corpo viaja com o cordão. Dano à forma astral não afeta o corpo. A magia termina para o alvo se corpo ou forma astral chegar a 0 PV ou se você descartar a magia. Ao terminar, o alvo reaparece no corpo.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "Para cada alvo: zircão no valor de 1.000 ou mais PO e barra de prata no valor de 100 ou mais PO, consumidos",
+        "classes": [
+            "Bruxo",
+            "Clérigo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 297,
+        "name": "Projetar Imagem",
+        "level": 7,
+        "school": "Ilusão",
+        "castingTime": "Ação",
+        "range": "800 quilômetros",
+        "duration": "Concentração, até 1 dia",
+        "description": "Você cria uma cópia ilusória de si mesmo que pode surgir em qualquer lugar que já tenha visto e esteja no alcance da magia. A ilusão é intangível, mas parece e soa como você. Pode ser movida até 18 metros, gesticular e falar conforme desejar. Interação física revela a ilusão, e criaturas podem perceber usando Analisar com teste de Inteligência (Investigação) contra a CD da magia.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "uma estatueta de si mesmo no valor de 5 ou mais PO",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 298,
+        "name": "Proteção Contra a Morte",
+        "level": 4,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "8 horas",
+        "description": "Você toca uma criatura e concede proteção contra a morte. A primeira vez que o alvo é reduzido a 0 PV antes do fim da magia, ele permanece com 1 PV e a magia termina. Efeitos que matariam instantaneamente sem causar dano são negados enquanto a magia estiver ativa.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo",
+            "Paladino"
+        ]
+    },
+    {
+        "id": 299,
+        "name": "Proteção Contra Energia",
+        "level": 3,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "Concentração, até 1 hora",
+        "description": "A criatura voluntária tocada tem resistência a um tipo de dano à escolha: Ácido, Elétrico, Gélido, Ígneo ou Trovejante.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Feiticeiro",
+            "Guardião",
+            "Mago"
+        ]
+    },
+    {
+        "id": 300,
+        "name": "Proteção Contra Lâminas",
+        "level": 0,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Pessoal",
+        "duration": "Concentração, até 1 minuto",
+        "description": "Sempre que uma criatura realiza uma jogada de ataque contra você, subtrai 1d4 da jogada de ataque enquanto a magia estiver ativa.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Bardo",
+            "Bruxo",
+            "Feiticeiro",
+            "Mago"
+        ]
+    },
+    {
+        "id": 301,
+        "name": "Proteção Contra o Bem e o Mal",
+        "level": 1,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "Concentração, até 10 minutos",
+        "description": "Até que a magia termine, uma criatura voluntária tocada está protegida contra Aberrações, Celestiais, Elementais, Feéricos, Ínferos e Mortos-Vivos. Criaturas desses tipos têm desvantagem em ataques contra o alvo. O alvo não pode ser possuído nem sofrer as condições Amedrontado ou Enfeitiçado por essas criaturas. Se já estiver sob esses efeitos, tem vantagem em qualquer nova salvaguarda.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um pote de Água Benta no valor de 25 ou mais PO, consumido",
+        "classes": [
+            "Bruxo",
+            "Clérigo",
+            "Druida",
+            "Mago",
+            "Paladino"
+        ]
+    },
+    {
+        "id": 302,
+        "name": "Proteção Contra Veneno",
+        "level": 2,
+        "school": "Abjuração",
+        "castingTime": "Ação",
+        "range": "Toque",
+        "duration": "1 hora",
+        "description": "Você toca uma criatura e encerra nela a condição Envenenado. Durante a duração, o alvo tem vantagem em salvaguardas contra a condição Envenenado e resistência a dano Venenoso.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Guardião",
+            "Paladino"
+        ]
+    },
+    {
+        "id": 303,
+        "name": "Proteger Fortaleza",
+        "level": 6,
+        "school": "Abjuração",
+        "castingTime": "1 hora",
+        "range": "Toque",
+        "duration": "24 horas",
+        "description": "Cria proteção em até 225 metros quadrados de espaço com altura de até 6 metros, moldável em quadrados de 1,5 ou 3 metros. Você pode especificar indivíduos ou definir uma senha que isenta do efeito. A magia gera quatro efeitos mágicos: Corredores (Totalmente Obscurecidos), Escadas (teias como magia Teia), Portas (trancadas magicamente, com até dez ilusões), e outro efeito à escolha: Luzes Dançantes, Boca Encantada, Nuvem Fétida, Lufada de Vento ou Sugestão em quadrado de 1,5 m. Dissipar Magia só afeta os efeitos, não a magia em si. Conjurações diárias consecutivas estendem a duração final.",
+        "components": [
+            "V",
+            "S",
+            "M"
+        ],
+        "materialComponent": "um cetro de prata no valor de 10 ou mais PO",
+        "classes": [
+            "Bardo",
+            "Mago"
+        ]
+    },
+    {
+        "id": 304,
+        "name": "Purificar Alimentos e Bebidas",
+        "level": 1,
+        "school": "Transmutação",
+        "castingTime": "Ação ou Ritual",
+        "range": "3 metros",
+        "duration": "Instantânea",
+        "description": "Remove veneno e podridão de alimentos e bebidas não mágicos em uma Esfera de 1,5 metro de raio centrada em um ponto no alcance da magia.",
+        "components": [
+            "V",
+            "S"
+        ],
+        "materialComponent": null,
+        "classes": [
+            "Clérigo",
+            "Druida",
+            "Paladino"
+        ]
     }
 ]
