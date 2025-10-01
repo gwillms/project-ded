@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Dice6 } from 'lucide-react';
+import { Flame, Ham } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
@@ -9,8 +9,9 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-full">
           {/* Logo minimalista */}
           <Link to="/" className="flex items-center space-x-2">
-            <Dice6 className="h-5 w-5 text-red-600" />
-            <span className="text-sm font-semibold text-slate-900">Cia do Churrasco</span>
+          <Flame className="w-8 h-8 text-orange-600" />
+          Companhia do Churrasco
+          <Ham className="w-8 h-8 text-red-600 ml-2" />
           </Link>
           <nav className="flex items-center space-x-6">
             <Link to="/about" className="text-sm text-slate-700 hover:text-red-600 transition-colors">
