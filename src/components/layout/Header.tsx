@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           {/* Logo minimalista */}
           <Link to="/" className="flex items-center space-x-2">
             <Dice6 className="h-5 w-5 text-red-600" />
-            <span className="text-sm font-semibold text-slate-900">D&D Tools</span>
+            <span className="text-sm font-semibold text-slate-900">Cia do Churrasco</span>
           </Link>
           <nav className="flex items-center space-x-6">
             <Link to="/about" className="text-sm text-slate-700 hover:text-red-600 transition-colors">

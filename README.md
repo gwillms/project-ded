@@ -1,4 +1,4 @@
-# 🎲 D&D Tools
+# 🎲 Cia do Churrasco
 
 ![Under Construction](https://img.shields.io/badge/Status-Under%20Construction-orange)
 ![React](https://img.shields.io/badge/React-blue?logo=react)
