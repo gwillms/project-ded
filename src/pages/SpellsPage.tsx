@@ -12,7 +12,7 @@ const SpellsPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<'alphabetical' | 'level-alphabetical'>('level-alphabetical');
 
   const schools = ["abjuração", "adivinhação", "conjuração", "encantamento", "evocação", "ilusão", "necromancia", "transmutação"];
-  const classes = ["Bardo", "Clérigo", "Druida", "Feiticeiro", "Mago", "Paladino", "Ranger", "Warlock"];
+  const classes = ["Bardo", "Bruxo", "Clérigo", "Druida", "Feiticeiro", "Guardião", "Mago", "Paladino"];
 
   const toggleKnownSpell = (spellId: number) => {
     const newKnownSpells = new Set(knownSpells);
