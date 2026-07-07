@@ -1,4 +1,4 @@
-# 🎲 Cia do Churrasco
+# 🎲 Projeto D&D
 
 ![Under Construction](https://img.shields.io/badge/Status-Under%20Construction-orange)
 ![React](https://img.shields.io/badge/React-blue?logo=react)
@@ -34,10 +34,7 @@ npm run dev
 - Complete spell database
 - Character sheet management  
 - Spell slot tracking
-- Dark mode
 - Export/import data
 - More filtering options
 
 ---
-
-🚧 Work in progress! More tools coming soon.
